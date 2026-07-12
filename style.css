@@ -425,3 +425,248 @@ resize:none;
 margin:15px 0;
 
 }
+
+/* =========================
+   IranVerseOs Premium UI
+========================= */
+
+
+body{
+
+background:
+radial-gradient(circle at 20% 20%, rgba(0,229,255,.18), transparent 35%),
+radial-gradient(circle at 80% 10%, rgba(124,77,255,.2), transparent 35%),
+linear-gradient(
+180deg,
+#050816,
+#02030a
+);
+
+}
+
+
+/* Glass Effect Upgrade */
+
+.card{
+
+background:
+linear-gradient(
+135deg,
+rgba(255,255,255,.12),
+rgba(255,255,255,.04)
+);
+
+border:
+1px solid rgba(255,255,255,.18);
+
+backdrop-filter:
+blur(25px);
+
+box-shadow:
+0 20px 60px rgba(0,0,0,.35);
+
+overflow:hidden;
+
+}
+
+
+.card:hover{
+
+transform:
+translateY(-12px)
+scale(1.02);
+
+box-shadow:
+0 30px 80px rgba(0,229,255,.25);
+
+}
+
+
+
+/* Headings */
+
+h1,h2,h3{
+
+letter-spacing:1px;
+
+}
+
+
+
+/* Navigation Upgrade */
+
+nav{
+
+box-shadow:
+
+0 10px 40px rgba(0,0,0,.4);
+
+}
+
+
+nav a{
+
+position:relative;
+
+}
+
+
+nav a::after{
+
+content:"";
+
+position:absolute;
+
+bottom:-8px;
+
+left:0;
+
+width:0;
+
+height:2px;
+
+background:var(--primary);
+
+transition:.3s;
+
+}
+
+
+nav a:hover::after{
+
+width:100%;
+
+}
+
+
+
+/* Buttons */
+
+button{
+
+background:
+
+linear-gradient(
+90deg,
+#00e5ff,
+#7c4dff
+);
+
+box-shadow:
+
+0 10px 30px rgba(0,229,255,.3);
+
+transition:.3s;
+
+}
+
+
+button:hover{
+
+transform:
+translateY(-4px);
+
+box-shadow:
+
+0 15px 45px rgba(124,77,255,.5);
+
+}
+
+
+
+/* Module Cards */
+
+.module-grid .card{
+
+min-height:220px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+
+.module-grid h3{
+
+font-size:25px;
+
+margin-bottom:15px;
+
+}
+
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+
+::-webkit-scrollbar-track{
+
+background:#050816;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+
+background:
+linear-gradient(
+#00e5ff,
+#7c4dff
+);
+
+border-radius:20px;
+
+}
+
+
+
+/* AI Floating Feeling */
+
+#ai-button{
+
+box-shadow:
+
+0 0 30px rgba(0,229,255,.7);
+
+animation:
+
+pulseAI 3s infinite;
+
+}
+
+
+@keyframes pulseAI{
+
+0%{
+
+box-shadow:
+0 0 10px rgba(0,229,255,.3);
+
+}
+
+50%{
+
+box-shadow:
+0 0 40px rgba(0,229,255,.9);
+
+}
+
+100%{
+
+box-shadow:
+0 0 10px rgba(0,229,255,.3);
+
+}
+
+}
