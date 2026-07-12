@@ -1,1 +1,3 @@
-
+function getHeroes() {
+    return IranVerseHeroes;
+}
