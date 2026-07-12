@@ -371,3 +371,35 @@ minmax(240px,1fr)
 gap:25px;
 
 }
+
+.dashboard-grid{
+
+max-width:1200px;
+
+margin:auto;
+
+padding:80px 25px;
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(260px,1fr));
+
+gap:25px;
+
+}
+
+
+.dashboard-grid .card{
+
+min-height:180px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+text-align:center;
+
+}
