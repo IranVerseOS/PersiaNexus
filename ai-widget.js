@@ -11,9 +11,8 @@ widget.innerHTML = `
 <div id="ai-panel">
 
 <h3>IranVerse AI Nexus</h3>
-
-<p>
-Founder Companion is ready.
+<p id="ai-status">
+Loading AI Status...
 </p>
 
 <input 
