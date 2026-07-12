@@ -30,3 +30,40 @@ aiStatus.innerHTML =
 };
 
 }
+const commandButton =
+document.getElementById("send-command");
+
+
+const commandBox =
+document.getElementById("ai-command");
+
+
+const responseBox =
+document.getElementById("ai-response");
+
+
+if(commandButton){
+
+commandButton.onclick=function(){
+
+
+let command = commandBox.value;
+
+
+if(command){
+
+responseBox.innerHTML =
+`
+AI received:
+
+"${command}"
+
+Analysis started...
+`;
+
+}
+
+
+};
+
+}
