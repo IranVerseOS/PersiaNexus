@@ -336,3 +336,38 @@ background:var(--surface2);
 box-shadow:0 20px 50px rgba(0,229,255,.15);
 
 }
+
+.modules{
+
+max-width:1200px;
+
+margin:auto;
+
+padding:80px 25px;
+
+text-align:center;
+
+}
+
+
+.modules h2{
+
+font-size:40px;
+
+margin-bottom:40px;
+
+}
+
+
+.module-grid{
+
+display:grid;
+
+grid-template-columns:repeat(
+auto-fit,
+minmax(240px,1fr)
+);
+
+gap:25px;
+
+}
