@@ -1,0 +1,10 @@
+{
+  "realms": [
+    {
+      "name": "Unknown Realm",
+      "type": "Fantasy",
+      "description": "A mysterious land waiting to be discovered",
+      "inhabitants": []
+    }
+  ]
+}
