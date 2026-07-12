@@ -1,0 +1,21 @@
+{
+  "power_system": {
+    "levels": [
+      "Awakened",
+      "Guardian",
+      "Legendary",
+      "Mythic"
+    ],
+    "categories": [
+      "Energy",
+      "Ancient Knowledge",
+      "Elemental Forces",
+      "Technology"
+    ],
+    "rules": [
+      "Every power has a source",
+      "Power requires balance",
+      "No ability exists without consequence"
+    ]
+  }
+}
