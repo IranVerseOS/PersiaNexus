@@ -403,3 +403,25 @@ justify-content:center;
 text-align:center;
 
 }
+
+#ai-command{
+
+width:100%;
+
+min-height:100px;
+
+padding:15px;
+
+border-radius:15px;
+
+border:1px solid var(--border);
+
+background:rgba(255,255,255,.05);
+
+color:white;
+
+resize:none;
+
+margin:15px 0;
+
+}
