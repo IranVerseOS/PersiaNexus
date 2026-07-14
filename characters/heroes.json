@@ -8,14 +8,16 @@
       "title": "The First Guardian of IranVerse",
 
       "origin": "Ancient Persian Realm",
-      "world": "Arya",
+      "world": "Ancient Persia",
       "kingdom": "Guardians",
 
       "class": "Guardian",
       "rarity": "Legendary",
-      "element": "Light",
-
+      "rank": "Guardian",
       "level": 1,
+
+      "element": "Light",
+      "energy_type": "Ancient Energy",
 
       "powers": [
         "Energy Control",
@@ -23,10 +25,33 @@
         "Guardian Spirit"
       ],
 
-      "weapon": "Guardian Blade",
-      "armor": "Light Armor",
+      "ultimate_skill": "Solar Judgment",
 
-      "personality": "Brave, Loyal, Wise",
+      "weapon": {
+        "name": "Guardian Blade",
+        "type": "Ancient Sword",
+        "rarity": "Legendary"
+      },
+
+      "armor": {
+        "name": "Light Armor",
+        "type": "Divine Armor"
+      },
+
+      "stats": {
+        "health": 100,
+        "mana": 100,
+        "attack": 25,
+        "defense": 20,
+        "speed": 15,
+        "intelligence": 18
+      },
+
+      "personality": [
+        "Brave",
+        "Loyal",
+        "Wise"
+      ],
 
       "weakness": [
         "Dark Energy"
@@ -39,10 +64,19 @@
 
       "status": "Alive",
 
-      "animation_ready": true,
-      "game_ready": true,
-      "ai_ready": true,
-      "nft_ready": true
+      "visual": {
+        "avatar": "assets/heroes/arvand.png",
+        "card_background": "assets/heroes/cards/arvand-card.jpg",
+        "theme_color": "#FFD700"
+      },
+
+      "system": {
+        "animation_ready": true,
+        "game_ready": true,
+        "ai_ready": true,
+        "nft_ready": true,
+        "voice_ready": false
+      }
     }
   ]
 }
