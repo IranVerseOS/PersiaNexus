@@ -1,0 +1,43 @@
+{
+  "universe": {
+    "name": "IranVerseOs",
+    "era": "Age of Awakening",
+    "vision": "A fusion of Persian mythology, ancient wisdom and futuristic technology"
+  },
+
+  "world_rules": {
+    "core_principle": "Power comes from knowledge, balance and responsibility",
+    "founder_authority": "The Founder has final decision authority over all systems"
+  },
+
+  "power_system": {
+    "levels": [
+      "Awakened",
+      "Guardian",
+      "Elite",
+      "Legendary",
+      "Mythic",
+      "Divine",
+      "Primordial"
+    ],
+
+    "categories": [
+      "Energy",
+      "Ancient Knowledge",
+      "Elemental Forces",
+      "Technology",
+      "Divine"
+    ]
+  },
+
+  "realms": [
+    {
+      "name": "Ancient Persia",
+      "role": "Origin of forgotten knowledge"
+    },
+    {
+      "name": "Future Nexus",
+      "role": "Technology and artificial intelligence evolution"
+    }
+  ]
+}
