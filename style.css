@@ -850,3 +850,60 @@ box-shadow:
     letter-spacing: 1px;
 
 }
+
+/* =================================
+   IranVerseOs Realm Theme Engine
+================================= */
+
+
+/* Ancient Persia Realm */
+
+.ancient-persia {
+
+    border-color: rgba(255,215,0,0.5);
+
+}
+
+
+.ancient-persia::before {
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(255,215,0,0.35),
+        transparent
+    );
+
+}
+
+
+
+/* Future Nexus Realm */
+
+.future-nexus {
+
+    border-color: rgba(0,220,255,0.5);
+
+}
+
+
+.future-nexus::before {
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(0,220,255,0.35),
+        transparent
+    );
+
+}
+
+
+
+/* Realm Identity Text */
+
+.world-card strong {
+
+    letter-spacing: 1px;
+
+}
