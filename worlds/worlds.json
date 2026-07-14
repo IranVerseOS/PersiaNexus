@@ -1,65 +1,200 @@
 {
+  "system": "IranVerse World Database",
+  "version": "1.0",
+
   "worlds": [
+
     {
       "id": "ancient_persia",
+
       "name": "Ancient Persia",
+
       "title": "The Origin Realm",
+
       "type": "Ancient Civilization",
 
+      "era": "Ancient Era",
+
       "identity": {
+
         "symbol": "𓀀",
+
         "element": "Ancient Energy",
+
         "theme": "Mystic Golden Civilization",
-        "image": "assets/worlds/ancient-persia.jpg",
+
+        "image": "ancient-persia.jpg",
+
         "color": "gold",
+
         "rank": "Primordial"
+
       },
+
 
       "description": "The birthplace of forgotten knowledge, ancient energy and legendary guardians.",
 
+
       "power_source": [
+
         "Ancient Knowledge",
-        "Mystic Energy"
+
+        "Mystic Energy",
+
+        "Guardian Force"
+
       ],
 
-      "status": "Active",
+
+      "technology_level": "Mystic Ancient",
+
+
+      "civilization": {
+
+        "name": "Persian Guardian Civilization",
+
+        "status": "Active",
+
+        "culture": "Ancient Wisdom",
+
+        "architecture": "Golden Mystic Temples"
+
+      },
+
 
       "lore": {
+
         "age": "Ancient Era",
+
         "origin": "The first source of awakened power",
-        "guardian_class": "Legendary Guardians"
-      }
+
+        "guardian_class": "Legendary Guardians",
+
+        "legend": "The realm where the first guardians awakened and protected the balance of energy."
+
+      },
+
+
+      "guardians": [
+
+        "Arvand"
+
+      ],
+
+
+      "threat_level": "Unknown",
+
+
+      "status": "Active"
+
     },
+
+
+
+
 
     {
       "id": "future_nexus",
+
+
       "name": "Future Nexus",
+
+
       "title": "The Digital Evolution Realm",
+
+
       "type": "Cyber Civilization",
 
+
+      "era": "Future Era",
+
+
+
       "identity": {
+
+
         "symbol": "◈",
+
         "element": "Technology",
+
         "theme": "Cyber Persian Future",
-        "image": "assets/worlds/future-nexus.jpg",
+
+        "image": "future-nexus.jpg",
+
         "color": "cyan",
+
         "rank": "Mythic"
+
       },
+
+
 
       "description": "A futuristic world where artificial intelligence and ancient wisdom merge.",
 
+
+
       "power_source": [
+
         "Technology",
-        "Artificial Intelligence"
+
+        "Artificial Intelligence",
+
+        "Digital Consciousness"
+
       ],
 
-      "status": "Developing",
+
+
+      "technology_level": "Advanced AI Civilization",
+
+
+
+      "civilization": {
+
+
+        "name": "Nexus Cyber Civilization",
+
+        "status": "Developing",
+
+        "culture": "Human AI Symbiosis",
+
+        "architecture": "Cyber Persian Structures"
+
+      },
+
+
 
       "lore": {
+
+
         "age": "Future Era",
+
         "origin": "The evolution of intelligence and digital consciousness",
-        "guardian_class": "Cyber Guardians"
-      }
+
+        "guardian_class": "Cyber Guardians",
+
+        "legend": "The realm where ancient knowledge meets artificial intelligence."
+
+      },
+
+
+
+      "guardians": [
+
+        "Future Guardians"
+
+      ],
+
+
+
+      "threat_level": "High",
+
+
+      "status": "Developing"
+
     }
+
+
   ]
+
 }
