@@ -6,8 +6,10 @@ console.log("IranVerse OS Initialized");
 // ===============================
 
 if (typeof IranVerseHeroes !== "undefined") {
-    console.log(IranVerseHeroes);
+    console.log("Heroes System:", IranVerseHeroes);
 }
+
+
 
 
 
@@ -16,7 +18,6 @@ if (typeof IranVerseHeroes !== "undefined") {
 // ===============================
 
 const aiButton = document.getElementById("ai-check");
-
 const aiStatus = document.getElementById("ai-status");
 
 
@@ -24,10 +25,12 @@ if (aiButton) {
 
     aiButton.onclick = function () {
 
+
         if (window.IranVerseAI) {
 
 
             aiStatus.innerHTML =
+
             `
             Online ✅ <br>
             Mode: ${IranVerseAI.mode}<br>
@@ -35,7 +38,9 @@ if (aiButton) {
             `;
 
 
-        } else {
+        } 
+        
+        else {
 
 
             aiStatus.innerHTML =
@@ -47,6 +52,8 @@ if (aiButton) {
     };
 
 }
+
+
 
 
 
@@ -68,20 +75,21 @@ document.getElementById("ai-response");
 
 
 
-if (commandButton) {
+if(commandButton){
 
 
-commandButton.onclick = function () {
+commandButton.onclick = function(){
 
 
-let command = commandBox.value;
+let command =
+commandBox.value.trim();
 
 
 
-if (command) {
+if(command){
 
 
-if (window.AIApproval) {
+if(window.AIApproval){
 
 
 let request =
@@ -110,7 +118,7 @@ Waiting Founder Decision
 
 }
 
-else {
+else{
 
 
 responseBox.innerHTML =
@@ -123,6 +131,7 @@ responseBox.innerHTML =
 }
 
 
+
 };
 
 
@@ -132,48 +141,53 @@ responseBox.innerHTML =
 
 
 
+
+
 // ===============================
 // IranVerseOs Lore Engine
 // ===============================
 
-async function loadLore() {
-
-    try {
+async function loadLore(){
 
 
-        const response =
-        await fetch("story/lore.json");
+try{
 
 
-        const lore =
-        await response.json();
+const response =
+await fetch("story/lore.json");
 
 
-
-        console.log(
-        "Lore System Activated:",
-        lore
-        );
+const lore =
+await response.json();
 
 
 
-        window.IranVerseLore = lore;
+console.log(
+"Lore System Activated:",
+lore
+);
 
 
 
-    }
+window.IranVerseLore =
+lore;
 
 
-    catch(error) {
+
+}
 
 
-        console.error(
-        "Lore loading failed:",
-        error
-        );
+catch(error){
 
 
-    }
+console.error(
+"Lore loading failed:",
+error
+);
+
+
+}
+
 
 }
 
@@ -186,54 +200,57 @@ loadLore();
 
 
 
+
 // ===============================
 // IranVerseOs World Database Engine
 // ===============================
 
-async function loadWorlds() {
+async function loadWorlds(){
 
 
-    try {
+try{
 
 
-        const response =
-        await fetch("worlds/worlds.json");
-
-
-        const worldsData =
-        await response.json();
+const response =
+await fetch("worlds/worlds.json");
 
 
 
-        console.log(
-        "World Database Activated:",
-        worldsData
-        );
+const worldsData =
+await response.json();
 
 
 
-        window.IranVerseWorlds =
-        worldsData;
+console.log(
+"World Database Activated:",
+worldsData
+);
 
 
 
-        displayWorlds();
+window.IranVerseWorlds =
+worldsData;
 
 
 
-    }
+displayWorlds();
 
 
-    catch(error) {
+
+}
 
 
-        console.error(
-        "World database loading failed:",
-        error
-        );
+catch(error){
 
 
-    }
+console.error(
+"World database loading failed:",
+error
+);
+
+
+}
+
 
 }
 
@@ -247,150 +264,176 @@ loadWorlds();
 
 
 
+
+
+
 // ===============================
 // World Visualization System
 // ===============================
 
-function displayWorlds() {
-
-
-    const container =
-    document.getElementById("world-container");
+function displayWorlds(){
 
 
 
-    if (
-    !container ||
-    !window.IranVerseWorlds
-    ) {
-
-        return;
-
-    }
+const container =
+document.getElementById("world-container");
 
 
 
+if(
+!container ||
+!window.IranVerseWorlds ||
+!window.IranVerseWorlds.worlds
+){
 
+return;
 
-    container.innerHTML = "";
-
-
-
-
-    window.IranVerseWorlds.worlds.forEach(world => {
-
-
-
-        const card =
-        document.createElement("div");
-
-
-
-        card.className =
-        "world-card";
+}
 
 
 
 
 
-        card.innerHTML =
-
-        `
-
-        <div class="world-symbol">
-
-        ${
-        world.identity
-        ?
-        world.identity.symbol
-        :
-        "◈"
-        }
-
-        </div>
-
-
-
-        <h3>
-        ${world.name}
-        </h3>
-
-
-
-        <h4>
-        ${world.title}
-        </h4>
+container.innerHTML = "";
 
 
 
 
-        <p>
-        ${world.description}
-        </p>
+
+window.IranVerseWorlds.worlds.forEach(world => {
+
+
+
+const card =
+document.createElement("div");
+
+
+
+card.className =
+"world-card";
+
+
+
+const identity =
+world.identity || {};
 
 
 
 
-        <p>
-        <strong>Type:</strong>
-        ${world.type}
-        </p>
+
+card.innerHTML =
 
 
 
+`
 
-        <p>
-        <strong>Status:</strong>
-        ${world.status}
-        </p>
+<div class="world-symbol">
+
+${identity.symbol || "◈"}
+
+</div>
+
+
+
+<h3>
+${world.name}
+</h3>
+
+
+
+<h4>
+${world.title}
+</h4>
+
+
+
+<p>
+${world.description}
+</p>
+
+
+
+<p>
+<strong>Type:</strong>
+${world.type}
+</p>
+
+
+
+<p>
+<strong>Status:</strong>
+${world.status}
+</p>
+
+
+
+<p>
+<strong>Element:</strong>
+${identity.element || "Unknown"}
+</p>
+
+
 
 <p>
 <strong>Theme:</strong>
-${
-world.identity
-?
-world.identity.theme
-:
-"Unknown"
-}
+${identity.theme || "Unknown"}
 </p>
+
 
 
 <p>
 <strong>Rank:</strong>
-${
-world.identity
-?
-world.identity.rank
-:
-"Unknown"
-}
+${identity.rank || "Unknown"}
 </p>
 
 
-        <p>
-        <strong>Power:</strong>
-        ${
-        world.power_source
-        ?
-        world.power_source.join(", ")
-        :
-        "Unknown"
-        }
 
-        </p>
-
-
-        `;
+<p>
+<strong>Energy Color:</strong>
+${identity.color || "Unknown"}
+</p>
 
 
 
+<p>
+<strong>Power Source:</strong>
 
-        container.appendChild(card);
+${
+world.power_source
+?
+world.power_source.join(", ")
+:
+"Unknown"
+}
+
+</p>
 
 
 
-    });
+<p>
+
+<strong>Lore:</strong>
+
+${
+world.lore
+?
+world.lore.origin
+:
+"Unknown"
+}
+
+</p>
+
+
+`;
+
+
+
+container.appendChild(card);
+
+
+
+});
 
 
 
