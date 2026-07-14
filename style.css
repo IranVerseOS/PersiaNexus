@@ -992,3 +992,87 @@ color:#000;
 font-weight:bold;
 
 }
+
+/* ===============================
+ Founder Dashboard
+================================ */
+
+
+.dashboard-section{
+
+text-align:center;
+
+}
+
+
+
+.dashboard-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(260px,1fr));
+
+gap:25px;
+
+}
+
+
+
+.dashboard-card{
+
+background:
+
+linear-gradient(
+145deg,
+#151526,
+#080810
+);
+
+
+padding:30px;
+
+
+border-radius:25px;
+
+
+border:
+
+1px solid rgba(255,215,0,.25);
+
+
+transition:.4s;
+
+}
+
+
+
+.dashboard-card:hover{
+
+transform:translateY(-10px);
+
+
+box-shadow:
+
+0 0 35px
+rgba(255,215,0,.25);
+
+}
+
+
+
+.dashboard-card h3{
+
+color:#ffd700;
+
+}
+
+
+
+.online{
+
+color:#00ff88;
+
+font-weight:bold;
+
+}
