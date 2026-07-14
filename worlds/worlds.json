@@ -10,7 +10,7 @@
         "symbol": "𓀀",
         "element": "Ancient Energy",
         "theme": "Mystic Golden Civilization",
-        "image": "ancient-persia.jpg",
+        "image": "assets/worlds/ancient-persia.jpg",
         "color": "gold",
         "rank": "Primordial"
       },
@@ -31,7 +31,6 @@
       }
     },
 
-
     {
       "id": "future_nexus",
       "name": "Future Nexus",
@@ -42,7 +41,7 @@
         "symbol": "◈",
         "element": "Technology",
         "theme": "Cyber Persian Future",
-        "image": "future-nexus.jpg",
+        "image": "assets/worlds/future-nexus.jpg",
         "color": "cyan",
         "rank": "Mythic"
       },
