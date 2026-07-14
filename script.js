@@ -6,7 +6,12 @@ console.log("IranVerse OS Initialized");
 // ===============================
 
 if (typeof IranVerseHeroes !== "undefined") {
-    console.log("Heroes System:", IranVerseHeroes);
+
+    console.log(
+        "Heroes System:",
+        IranVerseHeroes
+    );
+
 }
 
 
@@ -17,41 +22,51 @@ if (typeof IranVerseHeroes !== "undefined") {
 // AI Status System
 // ===============================
 
-const aiButton = document.getElementById("ai-check");
-const aiStatus = document.getElementById("ai-status");
+const aiButton =
+document.getElementById("ai-check");
 
 
-if (aiButton) {
-
-    aiButton.onclick = function () {
-
-
-        if (window.IranVerseAI) {
+const aiStatus =
+document.getElementById("ai-status");
 
 
-            aiStatus.innerHTML =
 
-            `
-            Online ✅ <br>
-            Mode: ${IranVerseAI.mode}<br>
-            Version: ${IranVerseAI.version}
-            `;
+if(aiButton){
 
 
-        } 
-        
-        else {
+aiButton.onclick = function(){
 
 
-            aiStatus.innerHTML =
-            "AI Core Not Connected";
+if(window.IranVerseAI){
 
 
-        }
+aiStatus.innerHTML =
 
-    };
+`
+Online ✅ <br>
+Mode: ${IranVerseAI.mode}<br>
+Version: ${IranVerseAI.version}
+`;
+
 
 }
+
+else{
+
+
+aiStatus.innerHTML =
+"AI Core Not Connected";
+
+
+}
+
+
+};
+
+
+}
+
+
 
 
 
@@ -61,6 +76,7 @@ if (aiButton) {
 // ===============================
 // AI Command Approval System
 // ===============================
+
 
 const commandButton =
 document.getElementById("send-command");
@@ -81,18 +97,22 @@ if(commandButton){
 commandButton.onclick = function(){
 
 
-let command =
+
+const command =
 commandBox.value.trim();
 
 
 
-if(command){
+if(!command){
+return;
+}
+
 
 
 if(window.AIApproval){
 
 
-let request =
+const request =
 AIApproval.createRequest(command);
 
 
@@ -128,10 +148,6 @@ responseBox.innerHTML =
 }
 
 
-}
-
-
-
 };
 
 
@@ -143,9 +159,11 @@ responseBox.innerHTML =
 
 
 
+
 // ===============================
 // IranVerseOs Lore Engine
 // ===============================
+
 
 async function loadLore(){
 
@@ -157,8 +175,14 @@ const response =
 await fetch("story/lore.json");
 
 
+
 const lore =
 await response.json();
+
+
+
+window.IranVerseLore =
+lore;
 
 
 
@@ -166,11 +190,6 @@ console.log(
 "Lore System Activated:",
 lore
 );
-
-
-
-window.IranVerseLore =
-lore;
 
 
 
@@ -192,7 +211,9 @@ error
 }
 
 
+
 loadLore();
+
 
 
 
@@ -204,6 +225,7 @@ loadLore();
 // ===============================
 // IranVerseOs World Database Engine
 // ===============================
+
 
 async function loadWorlds(){
 
@@ -221,15 +243,15 @@ await response.json();
 
 
 
+window.IranVerseWorlds =
+worldsData;
+
+
+
 console.log(
 "World Database Activated:",
 worldsData
 );
-
-
-
-window.IranVerseWorlds =
-worldsData;
 
 
 
@@ -244,7 +266,7 @@ catch(error){
 
 
 console.error(
-"World database loading failed:",
+"World Database Loading Failed:",
 error
 );
 
@@ -271,6 +293,7 @@ loadWorlds();
 // World Visualization System
 // ===============================
 
+
 function displayWorlds(){
 
 
@@ -283,7 +306,7 @@ document.getElementById("world-container");
 if(
 !container ||
 !window.IranVerseWorlds ||
-!window.IranVerseWorlds.worlds
+!Array.isArray(window.IranVerseWorlds.worlds)
 ){
 
 return;
@@ -309,8 +332,19 @@ document.createElement("div");
 
 
 
+const realmClass =
+world.id
+?
+world.id.replace("_","-")
+:
+"default-realm";
+
+
+
 card.className =
-`world-card ${world.id}`;
+`world-card ${realmClass}`;
+
+
 
 
 
@@ -323,8 +357,6 @@ world.identity || {};
 
 card.innerHTML =
 
-
-
 `
 
 <div class="world-symbol">
@@ -336,34 +368,38 @@ ${identity.symbol || "◈"}
 
 
 <h3>
-${world.name}
+${world.name || "Unknown Realm"}
 </h3>
 
 
 
 <h4>
-${world.title}
+${world.title || ""}
 </h4>
 
 
 
+
 <p>
-${world.description}
+${world.description || ""}
 </p>
+
 
 
 
 <p>
 <strong>Type:</strong>
-${world.type}
+${world.type || "Unknown"}
 </p>
+
 
 
 
 <p>
 <strong>Status:</strong>
-${world.status}
+${world.status || "Unknown"}
 </p>
+
 
 
 
@@ -374,10 +410,12 @@ ${identity.element || "Unknown"}
 
 
 
+
 <p>
 <strong>Theme:</strong>
 ${identity.theme || "Unknown"}
 </p>
+
 
 
 
@@ -388,6 +426,7 @@ ${identity.rank || "Unknown"}
 
 
 
+
 <p>
 <strong>Energy Color:</strong>
 ${identity.color || "Unknown"}
@@ -395,11 +434,12 @@ ${identity.color || "Unknown"}
 
 
 
+
 <p>
 <strong>Power Source:</strong>
 
 ${
-world.power_source
+Array.isArray(world.power_source)
 ?
 world.power_source.join(", ")
 :
@@ -410,8 +450,8 @@ world.power_source.join(", ")
 
 
 
-<p>
 
+<p>
 <strong>Lore:</strong>
 
 ${
@@ -426,6 +466,8 @@ world.lore.origin
 
 
 `;
+
+
 
 
 
