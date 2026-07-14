@@ -127,3 +127,16 @@ async function loadWorlds() {
 }
 
 loadWorlds();
+loadWorlds();
+
+
+// ===============================
+// World Visualization System
+// ===============================
+
+function displayWorlds() {
+
+...
+}
+
+setTimeout(displayWorlds, 500);
