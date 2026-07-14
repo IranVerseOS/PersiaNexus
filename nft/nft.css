@@ -138,3 +138,123 @@ grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:25px;
 
 }
+
+.nft-card{
+
+background:linear-gradient(160deg,#1d2a4a,#0b1320);
+
+border:2px solid gold;
+
+border-radius:30px;
+
+padding:40px;
+
+max-width:520px;
+
+margin:auto;
+
+box-shadow:0 0 40px rgba(255,215,0,.25);
+
+transition:.4s;
+
+}
+
+.nft-card:hover{
+
+transform:scale(1.03);
+
+box-shadow:0 0 60px rgba(255,215,0,.45);
+
+}
+
+.nft-rarity{
+
+display:inline-block;
+
+padding:8px 20px;
+
+background:gold;
+
+color:#111;
+
+font-weight:bold;
+
+border-radius:999px;
+
+margin-bottom:20px;
+
+}
+
+.nft-card h2{
+
+font-size:42px;
+
+margin-bottom:10px;
+
+}
+
+.nft-card h4{
+
+color:#bfc8d9;
+
+margin-bottom:25px;
+
+}
+
+.power,
+.element,
+.kingdom{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:12px 0;
+
+border-bottom:1px solid rgba(255,255,255,.1);
+
+font-size:18px;
+
+}
+
+.nft-card p{
+
+margin:25px 0;
+
+line-height:1.8;
+
+color:#d7dbe6;
+
+}
+
+.nft-card button{
+
+width:100%;
+
+padding:16px;
+
+border:none;
+
+border-radius:15px;
+
+font-size:18px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+background:gold;
+
+color:#111;
+
+transition:.3s;
+
+}
+
+.nft-card button:hover{
+
+transform:translateY(-2px);
+
+filter:brightness(1.08);
+
+}
