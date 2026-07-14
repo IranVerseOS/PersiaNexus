@@ -2,7 +2,7 @@
 // IranVerseOs Hero Engine v1.0
 // =====================================
 
-
+console.log("Hero Engine Loaded");
 async function loadHeroes(){
 
 
