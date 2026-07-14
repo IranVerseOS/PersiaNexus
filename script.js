@@ -107,3 +107,23 @@ async function loadLore() {
 }
 
 loadLore();
+
+// ===============================
+// IranVerseOs World Database Engine
+// ===============================
+
+async function loadWorlds() {
+    try {
+        const response = await fetch("worlds/worlds.json");
+        const worldsData = await response.json();
+
+        console.log("World Database Activated:", worldsData);
+
+        window.IranVerseWorlds = worldsData;
+
+    } catch (error) {
+        console.error("World database loading failed:", error);
+    }
+}
+
+loadWorlds();
