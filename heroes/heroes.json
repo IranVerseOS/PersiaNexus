@@ -1,1 +1,161 @@
+{
+  "id": "IV-H-0001",
 
+  "nft_id": "NFT-0001",
+
+  "name": "Arvand",
+
+  "title": "The First Guardian of IranVerse",
+
+  "rarity": "Legendary",
+
+  "class": "Guardian",
+
+  "origin": "Ancient Persian Realm",
+
+  "world": "Arya",
+
+  "element": "Light",
+
+  "era": "Ancient Era",
+
+  "level": 1,
+
+
+  "appearance": {
+
+    "age": "Unknown",
+
+    "height": "Legendary",
+
+    "armor": "Golden Light Armor",
+
+    "weapon": "Guardian Blade",
+
+    "symbol": "Ancient Sun"
+
+  },
+
+
+  "powers": [
+
+    {
+      "name": "Solar Energy Control",
+
+      "description":
+      "Ability to control ancient light energy and transform it into protective force."
+    },
+
+
+    {
+      "name": "Guardian Spirit",
+
+      "description":
+      "A connection with the ancient guardians who protect the balance of worlds."
+    },
+
+
+    {
+      "name": "Ancient Wisdom",
+
+      "description":
+      "Knowledge inherited from forgotten Persian civilizations."
+    }
+
+  ],
+
+
+  "personality": [
+
+    "Brave",
+
+    "Loyal",
+
+    "Wise",
+
+    "Calm"
+
+  ],
+
+
+  "weakness": [
+
+    "Dark Energy",
+
+    "Loss of Balance"
+
+  ],
+
+
+
+  "story": {
+
+    "origin":
+
+    "Before the rise of Future Nexus, the ancient realms discovered a source of pure energy hidden beneath the Persian lands. From this energy, Arvand was chosen as the first guardian.",
+
+
+    "mission":
+
+    "Protect the balance between ancient powers and future intelligence.",
+
+
+    "legend":
+
+    "When darkness returns, the first guardian will awaken again."
+
+  },
+
+
+  "nft": {
+
+    "collection":
+
+    "IranVerse Genesis Guardians",
+
+
+    "edition":
+
+    "001/1000",
+
+
+    "rarity_score":
+
+    95,
+
+
+    "utility":
+
+    [
+
+      "Playable Character",
+
+      "Story Access",
+
+      "Future Game Asset"
+
+    ]
+
+  },
+
+
+  "status":
+
+  "Alive",
+
+
+  "ready":
+
+  {
+
+    "animation": true,
+
+    "game": true,
+
+    "ai": true,
+
+    "nft": true
+
+  }
+
+}
