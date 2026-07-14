@@ -1,35 +1,60 @@
 console.log("IranVerse OS Initialized");
-console.log(IranVerseHeroes);
+
+
+// ===============================
+// Hero System Check
+// ===============================
+
+if (typeof IranVerseHeroes !== "undefined") {
+    console.log(IranVerseHeroes);
+}
+
+
+
+// ===============================
+// AI Status System
+// ===============================
+
 const aiButton = document.getElementById("ai-check");
 
 const aiStatus = document.getElementById("ai-status");
 
 
-if(aiButton){
+if (aiButton) {
 
-aiButton.onclick = function(){
+    aiButton.onclick = function () {
 
-if(window.IranVerseAI){
+        if (window.IranVerseAI) {
 
-aiStatus.innerHTML = 
-`
-Online ✅ <br>
-Mode: ${IranVerseAI.mode}<br>
-Version: ${IranVerseAI.version}
-`;
+
+            aiStatus.innerHTML =
+            `
+            Online ✅ <br>
+            Mode: ${IranVerseAI.mode}<br>
+            Version: ${IranVerseAI.version}
+            `;
+
+
+        } else {
+
+
+            aiStatus.innerHTML =
+            "AI Core Not Connected";
+
+
+        }
+
+    };
 
 }
 
-else{
 
-aiStatus.innerHTML =
-"AI Core Not Connected";
 
-}
 
-};
+// ===============================
+// AI Command Approval System
+// ===============================
 
-}
 const commandButton =
 document.getElementById("send-command");
 
@@ -42,26 +67,33 @@ const responseBox =
 document.getElementById("ai-response");
 
 
-if(commandButton){
 
-commandButton.onclick=function(){
+if (commandButton) {
+
+
+commandButton.onclick = function () {
 
 
 let command = commandBox.value;
 
 
-if(command){
 
-if(window.AIApproval){
+if (command) {
+
+
+if (window.AIApproval) {
+
 
 let request =
 AIApproval.createRequest(command);
 
 
+
 responseBox.innerHTML =
 
 `
-Status: ${request.status}
+Status:
+${request.status}
 
 <br><br>
 
@@ -74,60 +106,145 @@ ${request.action}
 Waiting Founder Decision
 `;
 
+
+
 }
-else{
+
+else {
+
 
 responseBox.innerHTML =
 "Approval System Offline";
 
+
 }
+
+
 }
 
 
 };
 
+
 }
+
+
+
+
 
 // ===============================
 // IranVerseOs Lore Engine
 // ===============================
 
 async function loadLore() {
-    try {
-        const response = await fetch("story/lore.json");
-        const lore = await response.json();
 
-        console.log("Lore System Activated:", lore);
+    try {
+
+
+        const response =
+        await fetch("story/lore.json");
+
+
+        const lore =
+        await response.json();
+
+
+
+        console.log(
+        "Lore System Activated:",
+        lore
+        );
+
+
 
         window.IranVerseLore = lore;
 
-    } catch (error) {
-        console.error("Lore loading failed:", error);
+
+
     }
+
+
+    catch(error) {
+
+
+        console.error(
+        "Lore loading failed:",
+        error
+        );
+
+
+    }
+
 }
 
+
 loadLore();
+
+
+
+
+
+
 
 // ===============================
 // IranVerseOs World Database Engine
 // ===============================
 
 async function loadWorlds() {
+
+
     try {
-        const response = await fetch("worlds/worlds.json");
-        const worldsData = await response.json();
 
-        console.log("World Database Activated:", worldsData);
 
-        window.IranVerseWorlds = worldsData;
+        const response =
+        await fetch("worlds/worlds.json");
 
-    } catch (error) {
-        console.error("World database loading failed:", error);
+
+        const worldsData =
+        await response.json();
+
+
+
+        console.log(
+        "World Database Activated:",
+        worldsData
+        );
+
+
+
+        window.IranVerseWorlds =
+        worldsData;
+
+
+
+        displayWorlds();
+
+
+
     }
+
+
+    catch(error) {
+
+
+        console.error(
+        "World database loading failed:",
+        error
+        );
+
+
+    }
+
 }
 
+
+
 loadWorlds();
-loadWorlds();
+
+
+
+
+
 
 
 // ===============================
@@ -136,7 +253,124 @@ loadWorlds();
 
 function displayWorlds() {
 
-...
-}
 
-setTimeout(displayWorlds, 500);
+    const container =
+    document.getElementById("world-container");
+
+
+
+    if (
+    !container ||
+    !window.IranVerseWorlds
+    ) {
+
+        return;
+
+    }
+
+
+
+
+
+    container.innerHTML = "";
+
+
+
+
+    window.IranVerseWorlds.worlds.forEach(world => {
+
+
+
+        const card =
+        document.createElement("div");
+
+
+
+        card.className =
+        "world-card";
+
+
+
+
+
+        card.innerHTML =
+
+        `
+
+        <div class="world-symbol">
+
+        ${
+        world.identity
+        ?
+        world.identity.symbol
+        :
+        "◈"
+        }
+
+        </div>
+
+
+
+        <h3>
+        ${world.name}
+        </h3>
+
+
+
+        <h4>
+        ${world.title}
+        </h4>
+
+
+
+
+        <p>
+        ${world.description}
+        </p>
+
+
+
+
+        <p>
+        <strong>Type:</strong>
+        ${world.type}
+        </p>
+
+
+
+
+        <p>
+        <strong>Status:</strong>
+        ${world.status}
+        </p>
+
+
+
+
+        <p>
+        <strong>Power:</strong>
+        ${
+        world.power_source
+        ?
+        world.power_source.join(", ")
+        :
+        "Unknown"
+        }
+
+        </p>
+
+
+        `;
+
+
+
+
+        container.appendChild(card);
+
+
+
+    });
+
+
+
+}
