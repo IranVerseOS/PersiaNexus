@@ -5,24 +5,45 @@
       "name": "Ancient Persia",
       "title": "The Origin Realm",
       "type": "Ancient Civilization",
+
+      "identity": {
+        "symbol": "𓀀",
+        "element": "Ancient Energy",
+        "theme": "Mystic Golden Civilization",
+        "image": "ancient-persia.jpg"
+      },
+
       "description": "The birthplace of forgotten knowledge, ancient energy and legendary guardians.",
+
       "power_source": [
         "Ancient Knowledge",
         "Mystic Energy"
       ],
+
       "status": "Active"
     },
+
 
     {
       "id": "future_nexus",
       "name": "Future Nexus",
       "title": "The Digital Evolution Realm",
       "type": "Cyber Civilization",
+
+      "identity": {
+        "symbol": "◈",
+        "element": "Technology",
+        "theme": "Cyber Persian Future",
+        "image": "future-nexus.jpg"
+      },
+
       "description": "A futuristic world where artificial intelligence and ancient wisdom merge.",
+
       "power_source": [
         "Technology",
         "Artificial Intelligence"
       ],
+
       "status": "Developing"
     }
   ]
