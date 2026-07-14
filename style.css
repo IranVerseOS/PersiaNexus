@@ -670,3 +670,64 @@ box-shadow:
 }
 
 }
+/* ===============================
+   IranVerseOs World Cards
+================================ */
+
+#world-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+#world-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+
+.world-card {
+
+    background: rgba(20, 20, 40, 0.75);
+
+    border: 1px solid rgba(255,255,255,0.15);
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    backdrop-filter: blur(10px);
+
+    transition: 0.4s;
+
+}
+
+
+.world-card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+.world-card h3 {
+
+    font-size: 28px;
+
+}
+
+
+.world-card h4 {
+
+    opacity: 0.8;
+
+}
+
+
+.world-card p {
+
+    line-height: 1.7;
+
+}
