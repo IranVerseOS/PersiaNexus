@@ -7,43 +7,105 @@
       "id": "GG-001",
       "name": "Arvand",
       "role": "First Guardian",
-      "core": "Light"
+      "core": "Light",
+
+      "traits": {
+        "rarity": "Legendary",
+        "class": "Guardian",
+        "element": "Light",
+        "origin": "Ancient Persia",
+        "special": "Farrah Connection"
+      }
     },
+
     {
       "id": "GG-002",
       "name": "Rostam",
       "role": "Guardian of Strength",
-      "core": "Earth"
+      "core": "Earth",
+
+      "traits": {
+        "rarity": "Mythic",
+        "class": "Warrior",
+        "element": "Earth",
+        "origin": "Ancient Persia",
+        "special": "Titan Bloodline"
+      }
     },
+
     {
       "id": "GG-003",
       "name": "Arash",
       "role": "Guardian of Destiny",
-      "core": "Wind"
+      "core": "Wind",
+
+      "traits": {
+        "rarity": "Legendary",
+        "class": "Archer",
+        "element": "Wind",
+        "origin": "Ancient Persia",
+        "special": "Divine Arrow"
+      }
     },
+
     {
       "id": "GG-004",
       "name": "Jamshid",
       "role": "Guardian of Civilization",
-      "core": "Sun"
+      "core": "Sun",
+
+      "traits": {
+        "rarity": "Divine",
+        "class": "King",
+        "element": "Light",
+        "origin": "Ancient Persia",
+        "special": "Lost Knowledge"
+      }
     },
+
     {
       "id": "GG-005",
       "name": "Cyrus",
       "role": "Guardian of Justice",
-      "core": "Light"
+      "core": "Light",
+
+      "traits": {
+        "rarity": "Divine",
+        "class": "King",
+        "element": "Light",
+        "origin": "Ancient Persia",
+        "special": "Justice Aura"
+      }
     },
+
     {
       "id": "GG-006",
       "name": "Avicenna",
       "role": "Guardian of Wisdom",
-      "core": "Knowledge"
+      "core": "Knowledge",
+
+      "traits": {
+        "rarity": "Mythic",
+        "class": "Scholar",
+        "element": "Time",
+        "origin": "Ancient Persia",
+        "special": "Ancient Knowledge"
+      }
     },
+
     {
       "id": "GG-007",
       "name": "Anahita",
       "role": "Guardian of Life",
-      "core": "Water"
+      "core": "Water",
+
+      "traits": {
+        "rarity": "Legendary",
+        "class": "Healer",
+        "element": "Water",
+        "origin": "Mystic Realm",
+        "special": "Divine Blessing"
+      }
     }
   ]
 }
