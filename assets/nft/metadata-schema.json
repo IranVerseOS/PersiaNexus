@@ -1,0 +1,73 @@
+{
+  "metadata_schema": {
+
+    "version": "1.0",
+
+    "standard": "IranVerse NFT",
+
+    "identity": {
+      "nft_id": "",
+      "character_id": "",
+      "universe_id": "",
+      "collection": ""
+    },
+
+    "character": {
+      "name": "",
+      "title": "",
+      "origin": "",
+      "story": ""
+    },
+
+    "visual": {
+      "art": "",
+      "model": "",
+      "animation_ready": false,
+      "three_dimensional": false
+    },
+
+    "attributes": {
+
+      "rarity": "",
+      "class": "",
+      "element": "",
+      "power_level": 0,
+      "special_trait": ""
+
+    },
+
+    "abilities": {
+
+      "main_power": "",
+      "secondary_powers": [],
+      "power_source": ""
+
+    },
+
+    "lore": {
+
+      "chapter": "",
+      "legend": "",
+      "connections": []
+
+    },
+
+    "evolution": {
+
+      "current_form": "",
+      "future_forms": [],
+      "awakening_condition": ""
+
+    },
+
+    "systems": {
+
+      "ai_ready": true,
+      "game_ready": true,
+      "animation_ready": true,
+      "marketplace_ready": true
+
+    }
+
+  }
+}
