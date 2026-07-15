@@ -1,31 +1,41 @@
-async function loadHeroes() {
+async function loadGenesisGuardians() {
 
-    const response = await fetch("../characters/heroes.json");
+    try {
 
-    const data = await response.json();
+        const response = await fetch("../universes/eternal-wisdom/genesis-guardians.json");
 
-    const gallery = document.getElementById("gallery");
+        const data = await response.json();
 
-    gallery.innerHTML = "";
+        const gallery = document.getElementById("gallery");
 
-    data.heroes.forEach(hero => {
+        gallery.innerHTML = "";
 
-        gallery.innerHTML += `
+        data.guardians.forEach(hero => {
 
-        <div class="hero-card">
+            gallery.innerHTML += `
 
-            <h3>${hero.name}</h3>
+            <div class="hero-card">
 
-            <p>${hero.title}</p>
+                <div class="rarity">GENESIS</div>
 
-            <span>${hero.origin}</span>
+                <h2>${hero.name}</h2>
 
-        </div>
+                <h4>${hero.role}</h4>
 
-        `;
+                <p>Core : ${hero.core}</p>
 
-    });
+            </div>
+
+            `;
+
+        });
+
+    } catch(error){
+
+        console.log(error);
+
+    }
 
 }
 
-loadHeroes();
+loadGenesisGuardians();
