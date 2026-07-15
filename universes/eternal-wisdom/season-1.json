@@ -1,0 +1,24 @@
+{
+  "season": 1,
+  "title": "The Seven Cores of Farrah",
+
+  "status": "Development",
+
+  "chapters": [
+    "The Awakening",
+    "The First Guardian",
+    "Rise of the Seven",
+    "The Void Council",
+    "The Lost Core",
+    "Battle of Ancient Persia",
+    "The New Beginning"
+  ],
+
+  "collections": [
+    "Genesis Guardians"
+  ],
+
+  "main_enemy": "Void Council",
+
+  "ending": "The Seven Guardians reunite the Farrah Core and awaken the IranVerse."
+}
