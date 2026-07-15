@@ -1,54 +1,81 @@
 {
-  "character_dna_system": {
+  "character_dna": {
+
+    "id": "IV-CHAR-001",
 
     "identity": {
-      "id": "",
-      "name": "",
-      "title": "",
-      "universe": "Eternal Wisdom"
+      "name": "Arvand",
+      "title": "The First Guardian of IranVerse",
+      "collection": "Genesis Guardians"
     },
 
     "origin": {
-      "realm": "",
-      "era": "",
-      "birth_story": ""
+      "realm": "Ancient Persian Realm",
+      "era": "Age of Awakening",
+      "birth_story": "Chosen by the Farrah Core to protect the balance between ancient wisdom and future technology."
     },
 
     "personality": {
-      "traits": [],
-      "values": [],
-      "fears": [],
-      "goals": []
+      "traits": [
+        "Brave",
+        "Loyal",
+        "Wise"
+      ],
+      "values": [
+        "Balance",
+        "Protection",
+        "Truth"
+      ],
+      "fears": [
+        "Loss of balance between worlds"
+      ],
+      "goals": [
+        "Protect the Seven Cores of Farrah"
+      ]
     },
 
     "abilities": {
-      "powers": [],
-      "element": "",
-      "class": "",
-      "power_source": ""
+      "powers": [
+        "Energy Control",
+        "Ancient Wisdom",
+        "Guardian Spirit"
+      ],
+      "element": "Light",
+      "class": "Guardian",
+      "power_source": "Farrah Energy"
     },
 
     "relationships": {
-      "allies": [],
-      "enemies": [],
-      "mentor": ""
+      "allies": [
+        "Genesis Guardians"
+      ],
+      "enemies": [
+        "Void Council"
+      ],
+      "mentor": "Ancient Guardians"
     },
 
     "evolution": {
-      "current_level": "",
-      "future_forms": [],
-      "awakening_condition": ""
+      "current_level": "Guardian",
+      "future_forms": [
+        "Legendary Guardian",
+        "Divine Protector"
+      ],
+      "awakening_condition": "Complete connection with the Farrah Core"
     },
 
     "nft_identity": {
-      "rarity": "",
-      "special_traits": [],
+      "rarity": "Legendary",
+      "special_traits": [
+        "Farrah Connection",
+        "First Guardian"
+      ],
       "collection": "Genesis Guardians"
     },
 
     "story": {
-      "chapter": "",
-      "legend": ""
+      "chapter": "The Awakening",
+      "legend": "The first warrior who awakened when the ancient world connected with the future."
     }
 
   }
