@@ -1,0 +1,42 @@
+{
+  "villains": [
+    {
+      "id": "VIL-001",
+
+      "name": "Zahak",
+
+      "title": "The Shadow Serpent King",
+
+      "origin": "Ancient Corrupted Persia",
+
+      "faction": "Shadow Dominion",
+
+      "threat_level": "Mythic",
+
+      "goal": "Break the balance of Farrah and control IranVerse.",
+
+      "powers": [
+        "Shadow Manipulation",
+        "Dark Energy",
+        "Immortal Curse"
+      ],
+
+      "weakness": [
+        "Divine Light",
+        "Guardian Unity"
+      ],
+
+      "story": "Once a ruler seeking eternal power, Zahak was consumed by darkness and became the first great enemy of the Guardians.",
+
+      "connections": {
+        "enemies": [
+          "Arvand"
+        ],
+
+        "artifacts": [
+          "Crown of Farrah"
+        ]
+      }
+    }
+  ]
+}
