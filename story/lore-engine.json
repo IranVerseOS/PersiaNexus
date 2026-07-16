@@ -1,0 +1,31 @@
+{
+  "lore_engine": {
+    "version": "1.0",
+    "name": "IranVerse Lore Engine",
+
+    "universes": [
+      "Eternal Wisdom"
+    ],
+
+    "story_structure": {
+      "chapters": [],
+      "events": [],
+      "factions": [],
+      "locations": [],
+      "artifacts": []
+    },
+
+    "connections": {
+      "characters": "universes/eternal-wisdom/genesis-guardians.json",
+      "nft_engine": "core/nft-engine.json",
+      "character_engine": "core/character-engine.json"
+    },
+
+    "rules": [
+      "Every character must belong to a story.",
+      "Every story must belong to a universe.",
+      "Every major event changes the world.",
+      "Every artifact has an origin."
+    ]
+  }
+}
