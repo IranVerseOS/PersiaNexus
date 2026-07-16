@@ -1,0 +1,50 @@
+{
+  "ai_nexus_config": {
+
+    "version": "1.0",
+
+    "name": "IranVerse AI Nexus",
+
+    "data_sources": [
+
+      {
+        "system": "Characters",
+        "path": "heroes.json"
+      },
+
+      {
+        "system": "NFT",
+        "path": "universes/eternal-wisdom/genesis-guardians.json"
+      },
+
+      {
+        "system": "Lore",
+        "path": "story/lore-engine.json"
+      },
+
+      {
+        "system": "Worlds",
+        "path": "universes/eternal-wisdom/worlds/world-map.json"
+      },
+
+      {
+        "system": "Artifacts",
+        "path": "story/artifacts/artifacts.json"
+      }
+
+    ],
+
+    "mode": "Assistant",
+
+    "permissions": {
+
+      "read": true,
+
+      "write": false,
+
+      "creator_approval": true
+
+    }
+
+  }
+}
