@@ -1,0 +1,19 @@
+{
+  "artifacts": [
+    {
+      "id": "ART-001",
+      "name": "Crown of Farrah",
+      "type": "Divine Crown",
+      "rarity": "Primordial",
+      "owner": "Unknown",
+      "origin": "Eternal Wisdom",
+      "status": "Lost",
+      "description": "The ancient crown that carries the sacred Farrah. Only the true Guardian of IranVerse can awaken its full power.",
+      "powers": [
+        "Farrah Awakening",
+        "Divine Leadership",
+        "Reality Protection"
+      ]
+    }
+  ]
+}
