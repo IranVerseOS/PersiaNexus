@@ -1,0 +1,31 @@
+{
+  "relationship_engine": {
+
+    "version": "1.0",
+
+    "relationships": [
+
+      {
+        "from": "Arvand",
+        "to": "Rostam",
+        "type": "Alliance",
+        "description": "Two legendary guardians united by Farrah."
+      },
+
+      {
+        "from": "Arvand",
+        "to": "Zahak",
+        "type": "Enemy",
+        "description": "The first battle between Light and Shadow."
+      }
+
+    ],
+
+    "rules": [
+      "Every important character can have relationships.",
+      "Relationships affect story events.",
+      "Relationships affect game missions."
+    ]
+
+  }
+}
