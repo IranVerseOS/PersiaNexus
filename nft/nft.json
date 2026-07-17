@@ -1,6 +1,8 @@
 {
   "collection": "PersiaNexus Genesis Collection",
 
+  "version": "1.0",
+
   "nfts": [
 
     {
@@ -14,9 +16,13 @@
 
       "rarity": "Legendary",
 
+      "rank": "Legendary Guardian",
+
       "realm": "Ancient Persia",
 
       "element": "Light",
+
+      "class": "Guardian",
 
       "powers": [
         "Energy Control",
@@ -24,13 +30,21 @@
         "Guardian Spirit"
       ],
 
-      "description": "The first guardian of PersiaNexus, protecting the balance between ancient power and future intelligence.",
+      "weapon": "Sacred Energy Blade",
+
+      "armor": "Guardian Armor of Persia",
+
+      "story": "Arvand is the first awakened guardian of PersiaNexus. Chosen by ancient forces, he protects the balance between forgotten wisdom and future intelligence.",
 
       "status": "Genesis",
 
       "game_ready": true,
 
-      "animation_ready": true
+      "animation_ready": true,
+
+      "ai_profile_ready": true,
+
+      "image": "assets/characters/arvand.jpg"
 
     }
 
