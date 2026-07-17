@@ -293,3 +293,84 @@ showHeroDetails(hero);
 
 
 loadHeroes();
+function showHeroDetails(hero){
+
+
+const detail =
+document.createElement("div");
+
+
+detail.className =
+"hero-detail";
+
+
+detail.innerHTML = `
+
+<h2>
+⚔ ${hero.name}
+</h2>
+
+<h3>
+${hero.title}
+</h3>
+
+
+<p>
+<strong>NFT ID:</strong>
+${hero.nft_id}
+</p>
+
+
+<p>
+<strong>Story:</strong>
+${hero.story}
+</p>
+
+
+<p>
+<strong>Weapon:</strong>
+${hero.weapon}
+</p>
+
+
+<p>
+<strong>Armor:</strong>
+${hero.armor}
+</p>
+
+
+<p>
+<strong>Weakness:</strong>
+${hero.weakness.join(", ")}
+</p>
+
+
+<h3>
+Powers
+</h3>
+
+<ul>
+
+${hero.powers.map(power =>
+
+`<li>${power}</li>`
+
+).join("")}
+
+</ul>
+
+
+<button onclick="this.parentElement.remove()">
+
+Close
+
+</button>
+
+
+`;
+
+
+document.body.appendChild(detail);
+
+
+}
