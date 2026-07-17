@@ -1,0 +1,33 @@
+{
+  "character_quest_connector": {
+    "version": "1.0",
+
+    "description": "Links characters to quests",
+
+    "connections": [
+
+      {
+        "character_id": "IV-H-0001",
+        "character_name": "Arvand",
+
+        "quests": [
+
+          "QUEST-0001"
+
+        ]
+
+      }
+
+    ],
+
+    "rules": [
+
+      "One character can have multiple quests",
+
+      "Quest progress affects story",
+
+      "Completed quests unlock new events"
+
+    ]
+  }
+}
