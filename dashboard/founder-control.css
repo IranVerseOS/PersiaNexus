@@ -265,3 +265,45 @@ ul{
     }
 
 }
+
+.dashboard-nav{
+
+display:flex;
+
+gap:20px;
+
+padding:25px;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+
+.dashboard-nav a{
+
+text-decoration:none;
+
+color:white;
+
+background:
+
+rgba(255,255,255,.08);
+
+padding:12px 25px;
+
+border-radius:20px;
+
+transition:.3s;
+
+}
+
+
+.dashboard-nav a:hover{
+
+background:#d4af37;
+
+color:black;
+
+}
