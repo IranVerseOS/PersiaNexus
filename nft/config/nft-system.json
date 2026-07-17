@@ -1,0 +1,12 @@
+{
+  "system": "PersiaNexus NFT Engine",
+  "version": "1.0",
+  "collections": [
+    "Eternal Legends Genesis"
+  ],
+  "media": {
+    "images": "assets/nft",
+    "trailers": "assets/trailers",
+    "audio": "assets/audio"
+  }
+}
