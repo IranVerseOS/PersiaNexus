@@ -270,7 +270,11 @@ hero.animation_ready
 `;
 
 
+card.onclick = function(){
 
+showHeroDetails(hero);
+
+};
 container.appendChild(card);
 
 card.onclick = function(){
