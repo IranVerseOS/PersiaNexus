@@ -1330,3 +1330,41 @@ padding:15px 20px;
 
 
 }
+
+/* PersiaNexus Text Fix */
+
+body{
+    overflow-x:hidden;
+}
+
+
+h1,
+h2,
+h3,
+p{
+    max-width:100%;
+    word-wrap:break-word;
+}
+
+
+.hero h1{
+    font-size:45px;
+}
+
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+}
+
+
+section{
+    overflow:hidden;
+}
+
+
+.card,
+.world-card,
+.dashboard-card{
+    overflow:hidden;
+}
