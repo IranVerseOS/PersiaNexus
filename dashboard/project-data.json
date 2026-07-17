@@ -1,0 +1,73 @@
+{
+  "project": {
+
+    "name": "PersiaNexus",
+
+    "version": "0.1",
+
+    "overall_progress": 45,
+
+
+    "systems": [
+
+      {
+        "name": "AI Nexus",
+        "status": "Development",
+        "progress": 60
+      },
+
+      {
+        "name": "Heroes System",
+        "status": "Development",
+        "progress": 70
+      },
+
+      {
+        "name": "NFT Engine",
+        "status": "Development",
+        "progress": 70
+      },
+
+      {
+        "name": "World Engine",
+        "status": "Development",
+        "progress": 50
+      },
+
+      {
+        "name": "Lore System",
+        "status": "Development",
+        "progress": 70
+      },
+
+      {
+        "name": "Game System",
+        "status": "Planned",
+        "progress": 20
+      },
+
+      {
+        "name": "Marketplace",
+        "status": "Planned",
+        "progress": 0
+      },
+
+      {
+        "name": "Mobile App",
+        "status": "Planned",
+        "progress": 0
+      }
+
+    ],
+
+
+    "bugs": {
+
+      "critical": 0,
+
+      "warning": 0
+
+    }
+
+  }
+}
