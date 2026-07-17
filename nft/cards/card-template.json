@@ -1,0 +1,25 @@
+{
+  "template": "PersiaNexus Legendary Card",
+
+  "version": "1.0",
+
+  "layout": {
+    "image": true,
+    "title": true,
+    "subtitle": true,
+    "rarity": true,
+    "power": true,
+    "element": true,
+    "artifact": true,
+    "story": true,
+    "trailer": true,
+    "music": true
+  },
+
+  "style": {
+    "theme": "Legendary",
+    "animation": true,
+    "border": "gold",
+    "background": "dark"
+  }
+}
