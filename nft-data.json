@@ -1,0 +1,79 @@
+{
+  "collection": "PersiaNexus Legends",
+
+  "nfts": [
+
+    {
+      "id": "PNX-001",
+
+      "name": "Rostam",
+
+      "category": "Mythic Hero",
+
+      "era": "Ancient Persia",
+
+      "rarity": "Mythic",
+
+      "power": 9900,
+
+      "element": "Spirit",
+
+      "story":
+      "The legendary warrior of Persian mythology.",
+
+      "status":
+      "Active"
+
+    },
+
+
+    {
+      "id": "PNX-002",
+
+      "name": "Avicenna",
+
+      "category": "Knowledge Legend",
+
+      "era": "Golden Age",
+
+      "rarity": "Legendary",
+
+      "power": 8500,
+
+      "element": "Ancient Wisdom",
+
+      "story":
+      "The master of medicine and philosophy.",
+
+      "status":
+      "Active"
+
+    },
+
+
+    {
+      "id": "PNX-003",
+
+      "name": "Arvand",
+
+      "category": "Guardian",
+
+      "era": "IranVerse Genesis",
+
+      "rarity": "Legendary",
+
+      "power": 9800,
+
+      "element": "Light",
+
+      "story":
+      "The first guardian of PersiaNexus.",
+
+      "status":
+      "Active"
+
+    }
+
+  ]
+
+}
