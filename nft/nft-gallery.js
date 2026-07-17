@@ -1,105 +1,54 @@
-async function loadLegendsNFT(){
-
-
-try{
-
+async function loadPersiaNexusLegends(){
 
 const response = await fetch(
-"nft/legends.json"
+"nft/legends/PersiaNexus-Eternal-Legends-Genesis.json"
 );
 
-
-const data =
-await response.json();
-
+const data = await response.json();
 
 
 const gallery =
-document.getElementById(
-"nft-gallery"
-);
+document.getElementById("nft-gallery");
 
 
-
-if(!gallery) return;
-
+gallery.innerHTML="";
 
 
-gallery.innerHTML = "";
-
-
-
-data.legends.forEach(legend=>{
+data.legends.forEach(hero=>{
 
 
 gallery.innerHTML += `
 
-
 <div class="nft-card">
 
-
 <h2>
-⚔️ ${legend.name}
+${hero.name}
 </h2>
 
-
 <h3>
-${legend.title}
+${hero.title}
 </h3>
 
-
-
 <p>
-⭐ ${legend.rarity}
+⭐ ${hero.rarity}
 </p>
 
-
-
 <p>
-🔥 Power:
-${legend.power_level}
+⚡ Power: ${hero.power}
 </p>
-
-
 
 <p>
 🌌 Element:
-${legend.element}
+${hero.element}
 </p>
-
-
 
 <p>
-💎 Artifact:
-${legend.artifact}
+${hero.story}
 </p>
-
-
-
-<p>
-🌑 Enemy:
-${legend.enemy}
-</p>
-
-
-
-<p>
-${legend.story}
-</p>
-
-
-
-<button>
-View Full Legend
-</button>
-
-
 
 </div>
 
-
 `;
-
 
 });
 
@@ -107,21 +56,4 @@ View Full Legend
 }
 
 
-
-catch(error){
-
-
-console.error(
-"NFT Loading Error:",
-error
-);
-
-
-}
-
-
-}
-
-
-
-loadLegendsNFT();
+loadPersiaNexusLegends();
