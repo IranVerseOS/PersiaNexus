@@ -1,0 +1,39 @@
+{
+  "collection": "PersiaNexus Genesis Collection",
+
+  "nfts": [
+
+    {
+      "id": "NFT-0001",
+
+      "name": "Arvand",
+
+      "title": "The First Guardian",
+
+      "type": "Hero",
+
+      "rarity": "Legendary",
+
+      "realm": "Ancient Persia",
+
+      "element": "Light",
+
+      "powers": [
+        "Energy Control",
+        "Ancient Wisdom",
+        "Guardian Spirit"
+      ],
+
+      "description": "The first guardian of PersiaNexus, protecting the balance between ancient power and future intelligence.",
+
+      "status": "Genesis",
+
+      "game_ready": true,
+
+      "animation_ready": true
+
+    }
+
+  ]
+
+}
