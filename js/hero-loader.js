@@ -6,11 +6,25 @@ async function loadHeroes() {
 
         const data = await response.json();
 
-        console.log("Heroes Loaded:", data);
+        const container =
+        document.getElementById("heroes-container");
 
-    } catch (error) {
+        if (!container) return;
 
-        console.error("Failed to load heroes:", error);
+        container.innerHTML = "";
+
+        data.heroes.forEach(hero => {
+
+            container.innerHTML +=
+            renderHero(hero);
+
+        });
+
+    }
+
+    catch(error){
+
+        console.error(error);
 
     }
 
