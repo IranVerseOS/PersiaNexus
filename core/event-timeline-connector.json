@@ -1,0 +1,30 @@
+{
+  "event_timeline_connector": {
+    "version": "1.0",
+
+    "description": "Links events to timeline eras",
+
+    "connections": [
+
+      {
+        "event_id": "EVENT-0001",
+
+        "timeline_era": "Age of Guardians",
+
+        "timeline_order": 3
+
+      }
+
+    ],
+
+    "rules": [
+
+      "Every event belongs to one era",
+
+      "Events are ordered chronologically",
+
+      "Timeline changes require Founder approval"
+
+    ]
+  }
+}
