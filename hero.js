@@ -1,47 +1,51 @@
-// =====================================
-// IranVerseOs Hero Engine v1.0
-// =====================================
+// =======================================
+// PersiaNexus Hero Engine v1.0
+// =======================================
 
-console.log("Hero Engine Loaded");
+
+console.log("⚔ PersiaNexus Hero Engine Activated");
+
+
+
+// Load Heroes Database
+
 async function loadHeroes(){
 
 
 try{
 
 
-const response = await fetch(
-"heroes/heroes.json"
-);
-
+const response = await fetch("heroes/heroes.json");
 
 
 const data = await response.json();
 
 
 
-window.IranVerseHeroes = data;
+window.PersiaNexusHeroes = data;
 
 
 
 console.log(
-"Heroes Database Online:",
+"Heroes Database Loaded:",
 data
 );
 
 
 
-renderHeroes();
+displayHeroes();
 
 
 
 }
 
 
+
 catch(error){
 
 
 console.error(
-"Heroes Database Error:",
+"Heroes Loading Failed:",
 error
 );
 
@@ -49,28 +53,28 @@ error
 }
 
 
+
 }
 
 
 
 
 
+// Display Heroes
 
-function renderHeroes(){
+
+function displayHeroes(){
 
 
 
 const container =
-document.getElementById(
-"hero-container"
-);
+document.getElementById("hero-container");
 
 
 
 if(
 !container ||
-!window.IranVerseHeroes ||
-!window.IranVerseHeroes.heroes
+!window.PersiaNexusHeroes
 ){
 
 return;
@@ -83,9 +87,12 @@ container.innerHTML = "";
 
 
 
+const heroes =
+window.PersiaNexusHeroes.heroes;
 
 
-IranVerseHeroes.heroes.forEach(hero => {
+
+heroes.forEach(hero => {
 
 
 
@@ -99,43 +106,186 @@ card.className =
 
 
 
-
-
 card.innerHTML = `
 
 
 
-<div class="hero-avatar">
+<h3>
+
+⚔ ${hero.name}
+
+</h3>
+
+
+
+<h4>
+
+${hero.title}
+
+</h4>
+
+
+
+<p>
+
+<strong>Origin:</strong>
+
+${hero.origin}
+
+</p>
+
+
+
+<p>
+
+<strong>Realm:</strong>
+
+${hero.world}
+
+</p>
+
+
+
+<p>
+
+<strong>Class:</strong>
+
+${hero.class}
+
+</p>
+
+
+
+<p>
+
+<strong>Rarity:</strong>
+
+${hero.rarity}
+
+</p>
+
+
+
+<p>
+
+<strong>Element:</strong>
+
+${hero.element}
+
+</p>
+
+
+
+<h4>
+
+Powers
+
+</h4>
+
+
+
+<ul>
+
+${
+hero.powers
+.map(power =>
+
+`<li>${power}</li>`
+
+)
+.join("")
+}
+
+</ul>
+
+
+
+<p>
+
+<strong>Weapon:</strong>
+
+${hero.weapon}
+
+</p>
+
+
+
+<p>
+
+<strong>Armor:</strong>
+
+${hero.armor}
+
+</p>
+
+
+
+<p>
+
+${hero.story}
+
+</p>
+
+
+
+
+<div class="hero-tags">
+
 
 
 ${
-hero.image
-
+hero.nft_ready
 ?
-
-`<img src="${hero.image}">`
-
+"<span>💎 NFT Ready</span>"
 :
-
-"⚔️"
-
+""
 }
+
+
+
+${
+hero.game_ready
+?
+"<span>🎮 Game Ready</span>"
+:
+""
+}
+
+
+
+${
+hero.animation_ready
+?
+"<span>🎬 Animation Ready</span>"
+:
+""
+}
+
 
 
 </div>
 
 
 
-
-
-<h3>
-${hero.name}
-</h3>
+`;
 
 
 
+container.appendChild(card);
 
 
-<h4>
-${hero.title}
-</h
+
+});
+
+
+
+}
+
+
+
+
+
+// Start Engine
+
+
+loadHeroes();
