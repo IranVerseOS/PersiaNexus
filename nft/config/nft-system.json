@@ -1,12 +1,41 @@
 {
-  "system": "PersiaNexus NFT Engine",
-  "version": "1.0",
+  "project": {
+    "name": "PersiaNexus",
+    "engine": "PersiaNexus NFT Engine",
+    "version": "1.0.0",
+    "status": "development"
+  },
+
   "collections": [
-    "Eternal Legends Genesis"
+    {
+      "id": "eternal-legends",
+      "name": "PersiaNexus Eternal Legends",
+      "file": "nft/legends/PersiaNexus-Eternal-Legends-Genesis.json",
+      "enabled": true
+    }
   ],
+
   "media": {
-    "images": "assets/nft",
-    "trailers": "assets/trailers",
-    "audio": "assets/audio"
+    "images": "assets/nft/",
+    "trailers": "assets/trailers/",
+    "audio": "assets/audio/"
+  },
+
+  "features": {
+    "gallery": true,
+    "story": true,
+    "characterProfile": true,
+    "trailer": true,
+    "music": true,
+    "rarity": true,
+    "power": true,
+    "futureMarketplace": false,
+    "futureBlockchain": false
+  },
+
+  "ui": {
+    "theme": "PersiaNexus Dark",
+    "cardStyle": "Legendary",
+    "animation": true
   }
 }
