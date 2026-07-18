@@ -44,6 +44,10 @@ if(send){
 
 send.onclick=function(){
 
+sendAIMessage();
+
+}
+
 
 const command =
 document.getElementById(
