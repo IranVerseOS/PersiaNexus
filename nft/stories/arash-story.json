@@ -1,0 +1,120 @@
+{
+  "id": "legend-002",
+
+  "name": "Arash Kamangir",
+
+  "persianName": "آرش کمانگیر",
+
+  "title": "The Guardian of Light",
+
+  "rarity": "Legendary",
+
+  "powerLevel": 98,
+
+
+  "origin": {
+
+    "era": "Ancient Persia",
+
+    "rebirth":
+    "Arash returns from the ancient legends when darkness threatens the balance of the worlds."
+
+  },
+
+
+  "story": {
+
+    "intro":
+    "A hero who once protected the borders of Persia is awakened again. His legendary arrow now carries the energy of light itself.",
+
+
+    "mission":
+    "Protect the boundaries between worlds and stop the spread of shadow energy.",
+
+
+    "enemy":
+    "The Shadow Empire that tries to break the connection between Earth and the ancient realms."
+
+  },
+
+
+  "powers": [
+
+    {
+      "name": "Light Arrow",
+      "description":
+      "Creates arrows made of pure cosmic light that can destroy darkness."
+    },
+
+
+    {
+      "name": "Vision of Future",
+      "description":
+      "Can see possible futures and choose the path of hope."
+    },
+
+
+    {
+      "name": "Energy Horizon",
+      "description":
+      "Creates a protective energy field around civilizations."
+    },
+
+
+    {
+      "name": "Legendary Sacrifice",
+      "description":
+      "Uses his ancient heroic spirit to unlock unlimited power."
+    }
+
+  ],
+
+
+  "weapons": [
+
+    {
+      "name": "Celestial Bow",
+      "type": "Ancient Energy Weapon"
+    },
+
+
+    {
+      "name": "Arrow of Dawn",
+      "type": "Light Weapon"
+    }
+
+  ],
+
+
+  "cinematic": {
+
+    "trailerDuration":
+    "60 seconds",
+
+    "theme":
+    "Epic Persian music mixed with futuristic energy",
+
+    "scene":
+    "Arash stands on a futuristic Persian battlefield. Darkness covers the sky. He pulls the legendary bow and releases an arrow of light that restores balance."
+
+  },
+
+
+  "assets": {
+
+    "image":
+    "assets/nft/arash-kamangir.jpg",
+
+    "trailer":
+    "assets/trailers/arash-kamangir.mp4",
+
+    "music":
+    "assets/audio/arash-theme.mp3"
+
+  },
+
+
+  "status":
+  "Active"
+
+}
