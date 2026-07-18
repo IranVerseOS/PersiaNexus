@@ -1,0 +1,42 @@
+{
+"id":"villain-001",
+"name":"Zahhak",
+"persianName":"ضحاک",
+"title":"The Shadow King",
+"rarity":"Dark Mythic",
+"powerLevel":100,
+
+"origin":{
+"era":"Ancient Darkness",
+"rebirth":"Zahhak returns as the ruler of corrupted energy and forgotten evil."
+},
+
+"story":{
+"intro":"An ancient darkness awakens again, seeking control over every world.",
+"mission":"Destroy light and replace hope with fear.",
+"enemy":"The Guardians of PersiaNexus."
+},
+
+"powers":[
+{
+"name":"Shadow Control",
+"description":"Controls dark energy."
+},
+{
+"name":"Serpent Curse",
+"description":"Creates powerful dark creatures."
+},
+{
+"name":"Immortal Darkness",
+"description":"Returns after every defeat."
+}
+],
+
+"assets":{
+"image":"assets/nft/zahhak.jpg",
+"trailer":"assets/trailers/zahhak.mp4",
+"music":"assets/audio/zahhak-theme.mp3"
+},
+
+"status":"Enemy"
+}
