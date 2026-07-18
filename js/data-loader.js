@@ -61,7 +61,10 @@ const PersiaNexusData = {
 
 window.PersiaNexusData = PersiaNexusData;
 
-
+PersiaNexusData.load("heroes.json")
+.then(data=>{
+    console.log("Heroes Data:", data);
+});
 console.log(
     "PersiaNexus Data Loader Initialized"
 );
