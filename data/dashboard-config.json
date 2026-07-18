@@ -1,0 +1,94 @@
+{
+  "founder_dashboard": {
+
+    "name": "PersiaNexus Founder Dashboard",
+
+    "version": "1.0",
+
+
+    "sections": [
+
+      {
+        "id": "ai_reports",
+        "title": "AI Nexus Reports",
+        "enabled": true,
+        "features": [
+          "Daily Analysis",
+          "Growth Suggestions",
+          "Problem Detection"
+        ]
+      },
+
+
+      {
+        "id": "nft_manager",
+        "title": "NFT Management",
+        "enabled": true,
+        "features": [
+          "Collections",
+          "Prices",
+          "Rarity",
+          "Marketplace Status"
+        ]
+      },
+
+
+      {
+        "id": "world_manager",
+        "title": "World & Lore",
+        "enabled": true,
+        "features": [
+          "Worlds",
+          "Stories",
+          "Characters"
+        ]
+      },
+
+
+      {
+        "id": "economy",
+        "title": "Economic Intelligence",
+        "enabled": true,
+        "features": [
+          "Revenue Suggestions",
+          "Market Analysis",
+          "Growth Ideas"
+        ]
+      },
+
+
+      {
+        "id": "security",
+        "title": "Security Center",
+        "enabled": true,
+        "features": [
+          "System Status",
+          "Access Control",
+          "AI Permission Control"
+        ]
+      }
+
+    ],
+
+
+    "ai_control": {
+
+      "suggestions_enabled": true,
+
+      "auto_execute": false,
+
+      "founder_approval_required": true
+
+    }
+
+  },
+
+
+  "system": {
+
+    "project": "PersiaNexus",
+
+    "dashboard_ready": true
+
+  }
+}
