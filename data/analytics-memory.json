@@ -1,0 +1,52 @@
+{
+  "system": "PersiaNexus AI Analytics",
+
+  "version": "1.0",
+
+  "metrics": {
+
+    "users": 0,
+
+    "pageViews": 0,
+
+    "nftViews": 0,
+
+    "heroViews": 0,
+
+    "community": 0
+
+  },
+
+
+  "analysisRules": [
+
+    "Find popular content",
+
+    "Detect weak sections",
+
+    "Suggest improvements",
+
+    "Prioritize user experience",
+
+    "Support business growth"
+
+  ],
+
+
+  "reports": {
+
+    "format": [
+
+      "Observation",
+
+      "Problem",
+
+      "Suggestion",
+
+      "Expected Result"
+
+    ]
+
+  }
+
+}
