@@ -1,0 +1,69 @@
+{
+  "marketplace": "PersiaNexus Marketplace",
+
+  "currency": "PNX",
+
+  "items": [
+
+    {
+      "tokenId": "PNX-0001",
+
+      "character": "Rostam",
+
+      "rarity": "Mythic",
+
+      "owner": "PersiaNexus",
+
+      "price": 10000,
+
+      "currency": "PNX",
+
+      "status": "Listed",
+
+      "limitedEdition": "1/100"
+
+    },
+
+
+    {
+      "tokenId": "PNX-0002",
+
+      "character": "Arash Kamangir",
+
+      "rarity": "Legendary",
+
+      "owner": "PersiaNexus",
+
+      "price": 7500,
+
+      "currency": "PNX",
+
+      "status": "Not Listed",
+
+      "limitedEdition": "1/250"
+
+    },
+
+
+    {
+      "tokenId": "PNX-0003",
+
+      "character": "Ibn Sina",
+
+      "rarity": "Mythic",
+
+      "owner": "PersiaNexus",
+
+      "price": 9000,
+
+      "currency": "PNX",
+
+      "status": "Not Listed",
+
+      "limitedEdition": "1/100"
+
+    }
+
+  ]
+
+}
