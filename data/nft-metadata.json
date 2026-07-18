@@ -1,0 +1,83 @@
+{
+  "nfts": [
+
+    {
+
+      "tokenId": "PNX-H-0001",
+
+      "character": "Rostam",
+
+      "collection": "Eternal Legends",
+
+      "rarity": "Mythic",
+
+      "edition": "1/100",
+
+
+      "attributes": {
+
+        "powerLevel": 100,
+
+        "element": "Ancient Energy",
+
+        "role": "Eternal Guardian",
+
+        "origin": "Ancient Persia"
+
+      },
+
+
+      "market": {
+
+        "status": "Coming Soon",
+
+        "price": null,
+
+        "currency": "PNX"
+
+      }
+
+    },
+
+
+    {
+
+      "tokenId": "PNX-H-0002",
+
+      "character": "Arash Kamangir",
+
+      "collection": "Eternal Legends",
+
+      "rarity": "Legendary",
+
+      "edition": "1/250",
+
+
+      "attributes": {
+
+        "powerLevel": 95,
+
+        "element": "Light Energy",
+
+        "role": "Guardian of Hope",
+
+        "origin": "Ancient Persia"
+
+      },
+
+
+      "market": {
+
+        "status": "Coming Soon",
+
+        "price": null,
+
+        "currency": "PNX"
+
+      }
+
+    }
+
+  ]
+
+}
