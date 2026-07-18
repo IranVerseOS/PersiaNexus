@@ -1,0 +1,48 @@
+{
+  "collections": [
+
+    {
+
+      "id": "COL-001",
+
+      "name": "Eternal Legends",
+
+      "persianName": "افسانه‌های جاودان",
+
+      "type": "Hero Collection",
+
+      "coverImage": "assets/nft/images/eternal-legends-cover.jpg",
+
+      "description":
+
+      "A legendary collection of Persian heroes awakened in the new era of PersiaNexus.",
+
+
+      "story":
+
+      "Ancient warriors return through forgotten energies to protect the balance between worlds.",
+
+
+      "characters": [
+
+        "Rostam",
+
+        "Arash Kamangir",
+
+        "Bahram",
+
+        "Zarir"
+
+      ],
+
+
+      "status":
+
+      "Active"
+
+    }
+
+
+  ]
+
+}
