@@ -6,53 +6,28 @@ const PersiaNexusData = {
 
             const response = await fetch(`data/${file}`);
 
+            console.log("Loading:", file);
+
             if (!response.ok) {
-                throw new Error("Data file not found");
+                throw new Error("File not found: " + file);
             }
 
-            return await response.json();
+            const result = await response.json();
+
+            console.log("Loaded:", result);
+
+            return result;
 
         } catch (error) {
 
             console.error(
-                "PersiaNexus Data Error:",
+                "PersiaNexus Error:",
                 error
             );
 
             return null;
+
         }
-
-    },
-
-
-    async loadAll(){
-
-        return {
-
-            heroes:
-            await this.load("heroes.json"),
-
-
-            nft:
-            await this.load("nft.json"),
-
-
-            worlds:
-            await this.load("worlds.json"),
-
-
-            lore:
-            await this.load("lore.json"),
-
-
-            ai:
-            await this.load("ai-config.json"),
-
-
-            dashboard:
-            await this.load("dashboard-config.json")
-
-        };
 
     }
 
@@ -61,10 +36,5 @@ const PersiaNexusData = {
 
 window.PersiaNexusData = PersiaNexusData;
 
-PersiaNexusData.load("heroes.json")
-.then(data=>{
-    console.log("Heroes Data:", data);
-});
-console.log(
-    "PersiaNexus Data Loader Initialized"
-);
+
+console.log("PersiaNexus Data Loader Ready");
