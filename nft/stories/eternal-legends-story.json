@@ -1,0 +1,28 @@
+{
+  "project": "PersiaNexus",
+  "series": "Eternal Legends",
+  "season": 1,
+  "title": "Rise of Eternal Light",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "The Awakening",
+      "status": "planned"
+    },
+    {
+      "episode": 2,
+      "title": "The First Guardian",
+      "status": "planned"
+    },
+    {
+      "episode": 3,
+      "title": "The Return of Darkness",
+      "status": "planned"
+    },
+    {
+      "episode": 4,
+      "title": "The Battle Begins",
+      "status": "planned"
+    }
+  ]
+}
