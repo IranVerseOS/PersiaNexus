@@ -1,0 +1,152 @@
+/* =====================================
+   PersiaNexus NFT Card System
+   Version 1.0
+===================================== */
+
+
+.nft-grid {
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+padding:40px;
+
+}
+
+
+
+.nft-card {
+
+
+background:
+linear-gradient(
+145deg,
+#151515,
+#242424
+);
+
+
+border-radius:25px;
+
+padding:25px;
+
+text-align:center;
+
+border:
+
+1px solid rgba(255,215,0,0.3);
+
+
+box-shadow:
+
+0 0 25px rgba(255,215,0,0.15);
+
+
+transition:
+
+0.4s;
+
+
+overflow:hidden;
+
+}
+
+
+
+.nft-card:hover {
+
+
+transform:
+
+translateY(-12px)
+scale(1.03);
+
+
+box-shadow:
+
+0 0 40px rgba(255,215,0,0.5);
+
+
+}
+
+
+
+.nft-card img {
+
+
+width:100%;
+
+height:330px;
+
+object-fit:cover;
+
+
+border-radius:20px;
+
+
+}
+
+
+
+.nft-card h2 {
+
+
+color:#ffd700;
+
+font-size:28px;
+
+
+}
+
+
+
+.nft-card h3 {
+
+
+color:#ddd;
+
+}
+
+
+
+.nft-card p {
+
+
+color:#aaa;
+
+}
+
+
+
+.nft-card button {
+
+
+background:
+
+linear-gradient(
+90deg,
+#ffd700,
+#ff8c00
+);
+
+
+border:none;
+
+
+padding:12px 25px;
+
+
+border-radius:20px;
+
+
+cursor:pointer;
+
+
+font-weight:bold;
+
+
+}
