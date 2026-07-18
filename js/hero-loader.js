@@ -1,23 +1,48 @@
+// PersiaNexus Hero Universe Loader
+
 async function loadHeroes(){
 
-    const response = await fetch("../data/heroes.json");
+    try {
 
-    const data = await response.json();
+        const response = await fetch("../data/heroes.json");
 
-
-    const container =
-    document.getElementById("heroes-container");
+        const data = await response.json();
 
 
-    data.heroes.forEach(hero => {
+        const container =
+        document.getElementById("heroes-container");
 
 
-        container.innerHTML += `
+        if(!container){
+            console.error(
+                "Heroes container not found"
+            );
+            return;
+        }
 
-        <div class="pn-card">
 
 
-            <img src="../${hero.nft.image}">
+        data.heroes.forEach(hero => {
+
+
+            const card = document.createElement("div");
+
+            card.className = "pn-card hero-card";
+
+
+
+            card.innerHTML = `
+
+            <div class="hero-image">
+
+                <img 
+                src="../${hero.nft.image}"
+                alt="${hero.name}"
+                onerror="this.style.display='none'"
+                >
+
+            </div>
+
 
 
             <div class="card-body">
@@ -34,40 +59,79 @@ async function loadHeroes(){
 
 
                 <p>
-                World:
+                🌍 World:
                 ${hero.world}
                 </p>
 
 
                 <p>
-                Level:
+                ⭐ Level:
                 ${hero.level}
                 </p>
 
 
                 <p>
-                Powers:
-                ${hero.powers.join(" - ")}
+                💎 NFT:
+                ${hero.nft.token}
                 </p>
 
 
+
                 <p>
+                ⚡ Powers:
+                <br>
+                ${hero.powers.join("<br>")}
+                </p>
+
+
+
+                <p>
+                📖
                 ${hero.story.origin}
                 </p>
 
 
+
+                <button class="pn-btn">
+
+                View Hero
+
+                </button>
+
+
             </div>
 
-
-        </div>
-
-        `;
+            `;
 
 
-    });
 
+            container.appendChild(card);
+
+
+        });
+
+
+
+        console.log(
+            "PersiaNexus Heroes Loaded",
+            data.heroes
+        );
+
+
+    }
+
+
+    catch(error){
+
+        console.error(
+            "Hero Loading Error:",
+            error
+        );
+
+    }
 
 }
+
 
 
 loadHeroes();
