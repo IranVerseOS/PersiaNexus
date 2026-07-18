@@ -1,0 +1,42 @@
+{
+"id":"legend-005",
+"name":"Ferdowsi",
+"persianName":"فردوسی",
+"title":"The Keeper of Legends",
+"rarity":"Legendary",
+"powerLevel":95,
+
+"origin":{
+"era":"Ancient Persia",
+"rebirth":"Ferdowsi returns to protect the memories of heroes from being erased."
+},
+
+"story":{
+"intro":"When darkness tries to delete the history of heroes, the power of Shahnameh awakens.",
+"mission":"Protect legends and inspire future generations.",
+"enemy":"The Forgotten Darkness."
+},
+
+"powers":[
+{
+"name":"Epic Creation",
+"description":"Brings legendary stories into reality."
+},
+{
+"name":"Hero Awakening",
+"description":"Can awaken ancient warriors."
+},
+{
+"name":"Immortal Words",
+"description":"His words create protective energy."
+}
+],
+
+"assets":{
+"image":"assets/nft/ferdowsi.jpg",
+"trailer":"assets/trailers/ferdowsi.mp4",
+"music":"assets/audio/ferdowsi-theme.mp3"
+},
+
+"status":"Active"
+}
