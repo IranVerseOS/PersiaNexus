@@ -1,0 +1,42 @@
+{
+"id":"legend-007",
+"name":"Molana",
+"persianName":"مولانا",
+"title":"The Soul Traveler",
+"rarity":"Mythic",
+"powerLevel":97,
+
+"origin":{
+"era":"Mystic Persia",
+"rebirth":"Molana returns as a traveler between worlds of energy and spirit."
+},
+
+"story":{
+"intro":"When darkness separates worlds, Molana opens the path of unity.",
+"mission":"Restore balance between body, mind and universe.",
+"enemy":"The Chaos Entity."
+},
+
+"powers":[
+{
+"name":"Soul Travel",
+"description":"Moves between spiritual dimensions."
+},
+{
+"name":"Universal Harmony",
+"description":"Creates peace energy."
+},
+{
+"name":"Infinite Love",
+"description":"Transforms darkness into light."
+}
+],
+
+"assets":{
+"image":"assets/nft/molana.jpg",
+"trailer":"assets/trailers/molana.mp4",
+"music":"assets/audio/molana-theme.mp3"
+},
+
+"status":"Active"
+}
