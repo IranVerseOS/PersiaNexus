@@ -1,1 +1,80 @@
+{
+  "collections": [
+    {
+      "id": "IV-NFT-C-0001",
+      "name": "PersiaNexus Legends",
+      "type": "Character Collection",
 
+      "description": "A legendary NFT universe based on Persian mythology, heroes, and future intelligence.",
+
+      "cover_image": "assets/images/nft/persian-legends-cover.jpg",
+
+      "trailer": "assets/videos/persian-legends-trailer.mp4",
+
+      "blockchain": {
+        "network": "Ethereum",
+        "contract_status": "not_created"
+      },
+
+      "marketplace": {
+        "enabled": false,
+        "platform": "future_marketplace",
+        "buy_sell": true
+      },
+
+      "supply": {
+        "total": 10000,
+        "available": 10000
+      },
+
+      "rarity_levels": [
+        {
+          "name": "Common",
+          "percentage": 50
+        },
+        {
+          "name": "Rare",
+          "percentage": 30
+        },
+        {
+          "name": "Epic",
+          "percentage": 15
+        },
+        {
+          "name": "Legendary",
+          "percentage": 5
+        }
+      ],
+
+      "pricing": {
+        "initial_price": {
+          "amount": 0,
+          "currency": "ETH"
+        },
+        "dynamic_pricing": true,
+        "future_rules": [
+          "Popularity growth",
+          "Story importance",
+          "Owner demand",
+          "Rarity level"
+        ]
+      },
+
+      "linked_systems": {
+        "heroes": true,
+        "lore": true,
+        "story": true,
+        "ai_nexus": true
+      },
+
+      "status": "development"
+    }
+  ],
+
+  "system": {
+    "project": "PersiaNexus",
+    "version": "1.0",
+    "nft_engine": "active",
+    "market_ready": false
+  }
+}
