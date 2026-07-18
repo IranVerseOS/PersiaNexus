@@ -1,48 +1,87 @@
 {
   "collection": "PersiaNexus Eternal Legends",
-  "version": "1.0.0",
+
+  "version": "1.0",
+
   "characters": [
+
     {
       "id": "legend-001",
-      "name": "رستم",
-      "title": "نگهبان جاودانه ایران",
-      "status": "Coming Soon",
+      "name": "Rostam",
+      "persianName": "رستم",
+      "title": "The Eternal Guardian of Persia",
+      "type": "Hero",
       "rarity": "Mythic",
-      "element": "Earth",
       "powerLevel": 100,
       "image": "assets/nft/rostam.jpg",
-      "trailer": "assets/trailers/rostam.mp4",
-      "music": "assets/audio/rostam-theme.mp3",
-      "story": "stories/rostam-story.json",
-      "enabled": true
+      "story": "nft/stories/rostam-story.json"
     },
+
+
     {
       "id": "legend-002",
-      "name": "آرش کمانگیر",
-      "title": "نگهبان مرزهای نور",
-      "status": "Coming Soon",
+      "name": "Arash Kamangir",
+      "persianName": "آرش کمانگیر",
+      "title": "The Guardian of Light",
+      "type": "Hero",
       "rarity": "Legendary",
-      "element": "Light",
       "powerLevel": 98,
       "image": "assets/nft/arash-kamangir.jpg",
-      "trailer": "assets/trailers/arash-kamangir.mp4",
-      "music": "assets/audio/arash-theme.mp3",
-      "story": "stories/arash-story.json",
-      "enabled": true
+      "story": "nft/stories/arash-story.json"
     },
+
+
     {
       "id": "legend-003",
-      "name": "ابن سینا",
-      "title": "حکیم ابدی",
-      "status": "Coming Soon",
-      "rarity": "Divine",
-      "element": "Wisdom",
-      "powerLevel": 99,
-      "image": "assets/nft/avicenna.jpg",
-      "trailer": "assets/trailers/avicenna.mp4",
-      "music": "assets/audio/avicenna-theme.mp3",
-      "story": "stories/avicenna-story.json",
-      "enabled": true
+      "name": "Ibn Sina",
+      "persianName": "ابن سینا",
+      "title": "The Eternal Sage of Knowledge",
+      "type": "Hero",
+      "rarity": "Mythic",
+      "powerLevel": 97,
+      "image": "assets/nft/ibn-sina.jpg",
+      "story": "nft/stories/ibn-sina-story.json"
+    },
+
+
+    {
+      "id": "legend-004",
+      "name": "Zakariya Razi",
+      "persianName": "زکریای رازی",
+      "title": "The Alchemist of Light",
+      "type": "Hero",
+      "rarity": "Mythic",
+      "powerLevel": 96,
+      "image": "assets/nft/zakariya-razi.jpg",
+      "story": "nft/stories/zakariya-razi-story.json"
+    },
+
+
+    {
+      "id": "legend-005",
+      "name": "Ferdowsi",
+      "persianName": "فردوسی",
+      "title": "The Keeper of Legends",
+      "type": "Hero",
+      "rarity": "Legendary",
+      "powerLevel": 95,
+      "image": "assets/nft/ferdowsi.jpg",
+      "story": "nft/stories/ferdowsi-story.json"
+    },
+
+
+    {
+      "id": "villain-001",
+      "name": "Zahhak",
+      "persianName": "ضحاک",
+      "title": "The Shadow King",
+      "type": "Villain",
+      "rarity": "Dark Mythic",
+      "powerLevel": 100,
+      "image": "assets/nft/zahhak.jpg",
+      "story": "nft/stories/zahhak-story.json"
     }
+
   ]
+
 }
