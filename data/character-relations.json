@@ -1,0 +1,31 @@
+{
+  "relations": [
+
+    {
+      "from": "Rostam",
+      "to": "Arash Kamangir",
+      "type": "Ally",
+      "description":
+      "Two legendary guardians connected by the power of ancient energy."
+    },
+
+
+    {
+      "from": "Rostam",
+      "to": "Bahram",
+      "type": "Ally",
+      "description":
+      "Warriors who protect the balance of PersiaNexus."
+    },
+
+
+    {
+      "from": "Rostam",
+      "to": "Zahhak",
+      "type": "Enemy",
+      "description":
+      "The eternal conflict between light and shadow."
+    }
+
+  ]
+}
