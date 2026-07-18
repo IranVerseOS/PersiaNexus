@@ -1,0 +1,67 @@
+{
+  "system": "PersiaNexus NFT Valuation",
+
+  "version": "1.0",
+
+
+  "factors": {
+
+    "storyImportance": 30,
+
+    "rarity": 25,
+
+    "power": 20,
+
+    "utility": 15,
+
+    "communityDemand": 10
+
+  },
+
+
+  "characters": [
+
+    {
+
+      "name": "Rostam",
+
+      "scores": {
+
+        "storyImportance": 95,
+
+        "rarity": 90,
+
+        "power": 100,
+
+        "utility": 80,
+
+        "communityDemand": 0
+
+      }
+
+    },
+
+
+    {
+
+      "name": "Arash Kamangir",
+
+      "scores": {
+
+        "storyImportance": 90,
+
+        "rarity": 85,
+
+        "power": 95,
+
+        "utility": 75,
+
+        "communityDemand": 0
+
+      }
+
+    }
+
+  ]
+
+}
