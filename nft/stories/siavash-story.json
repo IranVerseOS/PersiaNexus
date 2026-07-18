@@ -1,0 +1,42 @@
+{
+"id":"legend-011",
+"name":"Siavash",
+"persianName":"سیاوش",
+"title":"The Pure Flame",
+"rarity":"Mythic",
+"powerLevel":96,
+
+"origin":{
+"era":"Shahnameh Age",
+"rebirth":"Siavash returns as a symbol of purity and sacrifice."
+},
+
+"story":{
+"intro":"A hero of innocence returns to fight corruption and darkness.",
+"mission":"Protect truth and restore honor.",
+"enemy":"The Corrupted Shadows."
+},
+
+"powers":[
+{
+"name":"Pure Fire",
+"description":"Creates a flame that cannot be corrupted."
+},
+{
+"name":"Sacrifice Power",
+"description":"Turns sacrifice into strength."
+},
+{
+"name":"Spirit Protection",
+"description":"Protects allies with spiritual energy."
+}
+],
+
+"assets":{
+"image":"assets/nft/siavash.jpg",
+"trailer":"assets/trailers/siavash.mp4",
+"music":"assets/audio/siavash-theme.mp3"
+},
+
+"status":"Active"
+}
