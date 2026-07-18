@@ -1,1 +1,226 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PersiaNexus NFT Hub</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#080808;
+    color:white;
+    font-family:tahoma;
+}
+
+
+.hero{
+    height:70vh;
+    background:
+    linear-gradient(
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.9)),
+    url("assets/images/nft/persian-legends-cover.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+
+.hero h1{
+    font-size:50px;
+}
+
+
+.container{
+
+padding:40px;
+
+}
+
+
+.cards{
+
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+}
+
+
+.card{
+
+background:#151515;
+
+border-radius:20px;
+
+overflow:hidden;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+.card img{
+
+width:100%;
+height:300px;
+object-fit:cover;
+
+}
+
+
+.info{
+
+padding:20px;
+
+}
+
+
+.badge{
+
+color:#ffd700;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<section class="hero">
+
+<div>
+
+<h1>
+PersiaNexus Legends
+</h1>
+
+<p>
+دنیای NFT قهرمانان افسانه‌ای ایران
+</p>
+
+</div>
+
+</section>
+
+
+
+<div class="container">
+
+
+<h2>
+قهرمانان NFT
+</h2>
+
+
+<div id="heroes" class="cards">
+
+</div>
+
+
+</div>
+
+
+
+
+<script src="js/data-loader.js"></script>
+
+
+<script>
+
+
+async function loadNFT(){
+
+
+const data =
+await PersiaNexusData.load("heroes.json");
+
+
+const box =
+document.getElementById("heroes");
+
+
+
+data.heroes.forEach(hero=>{
+
+
+box.innerHTML += `
+
+
+<div class="card">
+
+
+<img src="${hero.image}">
+
+
+<div class="info">
+
+
+<h3>
+${hero.name}
+</h3>
+
+
+<p>
+${hero.title}
+</p>
+
+
+<p class="badge">
+
+${hero.nft.rarity}
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+`;
+
+
+});
+
+
+}
+
+
+
+loadNFT();
+
+
+</script>
+
+
+</body>
+
+</html>
