@@ -1,0 +1,107 @@
+{
+  "database": "PersiaNexus Characters",
+
+  "version": "1.0",
+
+
+  "characters": [
+
+    {
+
+      "id": "PNX-H-0001",
+
+      "name": "Rostam",
+
+      "persianName": "رستم",
+
+      "type": "Hero",
+
+      "rarity": "Mythic",
+
+      "powerLevel": 100,
+
+      "element": "Ancient Energy",
+
+      "role": "Eternal Guardian",
+
+      "origin": "Ancient Persia",
+
+      "story":
+      "A legendary warrior awakened by ancient Persian energy to protect the balance of worlds.",
+
+      "nft":
+      {
+        "tokenId": "PNX-0001",
+
+        "edition": "1/100",
+
+        "status": "Active"
+      }
+
+    },
+
+
+    {
+
+      "id": "PNX-H-0002",
+
+      "name": "Arash Kamangir",
+
+      "persianName": "آرش کمانگیر",
+
+      "type": "Hero",
+
+      "rarity": "Legendary",
+
+      "powerLevel": 95,
+
+      "element": "Light Energy",
+
+      "role": "Guardian of Hope",
+
+      "origin": "Ancient Persia",
+
+      "story":
+      "The legendary archer reborn with cosmic energy to defend humanity.",
+
+      "nft":
+      {
+        "tokenId": "PNX-0002",
+
+        "edition": "1/250",
+
+        "status": "Active"
+      }
+
+    },
+
+
+    {
+
+      "id": "PNX-V-0001",
+
+      "name": "Zahhak",
+
+      "persianName": "ضحاک",
+
+      "type": "Villain",
+
+      "rarity": "Mythic",
+
+      "powerLevel": 98,
+
+      "element": "Shadow Force",
+
+      "role": "Shadow King",
+
+      "origin": "Ancient Darkness",
+
+      "story":
+      "A forgotten dark force seeking control over awakened energies."
+
+    }
+
+
+  ]
+
+}
