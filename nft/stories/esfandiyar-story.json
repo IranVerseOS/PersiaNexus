@@ -1,0 +1,42 @@
+{
+"id":"legend-012",
+"name":"Esfandiyar",
+"persianName":"اسفندیار",
+"title":"The Immortal Shield",
+"rarity":"Legendary",
+"powerLevel":97,
+
+"origin":{
+"era":"Shahnameh Age",
+"rebirth":"Esfandiyar returns with the power of an unstoppable warrior blessed by ancient energy."
+},
+
+"story":{
+"intro":"When darkness creates armies of destruction, the legendary warrior with the golden armor awakens.",
+"mission":"Protect the innocent and defend the gates between worlds.",
+"enemy":"The Shadow Warriors."
+},
+
+"powers":[
+{
+"name":"Golden Armor",
+"description":"Creates an almost unbreakable energy armor."
+},
+{
+"name":"Warrior Spirit",
+"description":"Unlocks ancient battle knowledge."
+},
+{
+"name":"Seven Trials Power",
+"description":"Gains strength from overcoming impossible challenges."
+}
+],
+
+"assets":{
+"image":"assets/nft/esfandiyar.jpg",
+"trailer":"assets/trailers/esfandiyar.mp4",
+"music":"assets/audio/esfandiyar-theme.mp3"
+},
+
+"status":"Active"
+}
