@@ -89,3 +89,53 @@
     "lore_link": true
   }
 }
+{
+  "worlds": [
+
+    {
+      "id": "WORLD-0001",
+
+      "name": "Ancient Persia",
+
+      "type": "Mystic Ancient Civilization",
+
+      "description": "A forgotten golden civilization powered by ancient energies, myths and legendary guardians.",
+
+      "themes": [
+        "Ancient Energy",
+        "Mysticism",
+        "Persian Legends"
+      ],
+
+      "heroes": [
+        "IV-H-0001"
+      ],
+
+      "image": "assets/images/worlds/ancient-persia.jpg"
+
+    },
+
+
+    {
+      "id": "WORLD-0002",
+
+      "name": "Future Nexus",
+
+      "type": "Cyber Persian Future",
+
+      "description": "A futuristic world where Persian heritage merges with artificial intelligence and advanced technology.",
+
+      "themes": [
+        "Technology",
+        "AI",
+        "Cyber Civilization"
+      ],
+
+      "heroes": [],
+
+      "image": "assets/images/worlds/future-nexus.jpg"
+
+    }
+
+  ]
+}
