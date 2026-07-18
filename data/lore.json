@@ -75,3 +75,65 @@
     "ai_connection": true
   }
 }
+{
+  "lore": [
+
+    {
+      "id": "LORE-001",
+
+      "chapter": "Awakening",
+
+      "title": "The Ancient Energy Awakens",
+
+      "world": "Ancient Persia",
+
+      "description": 
+      "Long forgotten energies awaken once again, bringing new guardians into the world.",
+
+
+      "characters": [
+        "IV-H-0001"
+      ],
+
+
+      "timeline": {
+
+        "era": "Ancient Era",
+
+        "event":
+        "The first guardian discovers the hidden Persian energy."
+
+      }
+
+    },
+
+
+    {
+      "id": "LORE-002",
+
+      "chapter": "Future Nexus",
+
+      "title": "The Fusion of Heritage and AI",
+
+      "world": "Future Nexus",
+
+      "description":
+      "Human knowledge and artificial intelligence create a new Persian cyber civilization.",
+
+
+      "characters": [],
+
+
+      "timeline": {
+
+        "era": "Future Era",
+
+        "event":
+        "AI Nexus connects ancient wisdom with future technology."
+
+      }
+
+    }
+
+  ]
+}
