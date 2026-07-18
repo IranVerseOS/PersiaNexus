@@ -66,7 +66,15 @@ input.value="";
 
 
 function generateAIAnswer(question){
+const characterAnswer =
+searchCharacter(question);
 
+
+if(characterAnswer){
+
+return characterAnswer;
+
+}
 
 let q =
 question.toLowerCase();
