@@ -1,0 +1,42 @@
+{
+"id":"legend-008",
+"name":"Zoroaster",
+"persianName":"زرتشت",
+"title":"The Flame of Truth",
+"rarity":"Divine",
+"powerLevel":99,
+
+"origin":{
+"era":"Ancient Persia",
+"rebirth":"Zoroaster returns as the guardian of cosmic balance and sacred fire."
+},
+
+"story":{
+"intro":"The ancient keeper of truth awakens when darkness attempts to extinguish the eternal flame.",
+"mission":"Protect the balance between light and shadow.",
+"enemy":"The Eternal Darkness."
+},
+
+"powers":[
+{
+"name":"Sacred Flame",
+"description":"Controls the energy of the eternal fire."
+},
+{
+"name":"Truth Vision",
+"description":"Reveals hidden lies and darkness."
+},
+{
+"name":"Cosmic Balance",
+"description":"Restores harmony between worlds."
+}
+],
+
+"assets":{
+"image":"assets/nft/zoroaster.jpg",
+"trailer":"assets/trailers/zoroaster.mp4",
+"music":"assets/audio/zoroaster-theme.mp3"
+},
+
+"status":"Active"
+}
