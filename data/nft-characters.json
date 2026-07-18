@@ -1,0 +1,62 @@
+{
+ "characters":[
+
+  {
+   "id":"PNX-001",
+   "name":"Rostam",
+   "title":"The Eternal Guardian",
+   "type":"Hero",
+   "rarity":"Mythic",
+
+   "image":
+   "assets/nft/images/rostam.jpg",
+
+   "story":
+   "A legendary Persian warrior awakened by ancient energy to protect the balance of worlds.",
+
+   "powers":[
+    "Ancient Warrior Energy",
+    "Guardian Force",
+    "Battle Spirit"
+   ],
+
+   "collection":
+   "Eternal Legends",
+
+   "nft":{
+    "edition":"1/100",
+    "status":"Active"
+   }
+  },
+
+
+  {
+   "id":"PNX-002",
+   "name":"Arash Kamangir",
+   "title":"Guardian of Light",
+   "type":"Hero",
+   "rarity":"Legendary",
+
+   "image":
+   "assets/nft/images/arash.jpg",
+
+   "story":
+   "The legendary archer returns with cosmic light energy.",
+
+   "powers":[
+    "Light Energy",
+    "Cosmic Arrow"
+   ],
+
+   "collection":
+   "Eternal Legends",
+
+   "nft":{
+    "edition":"1/250",
+    "status":"Active"
+   }
+  }
+
+ ]
+
+}
