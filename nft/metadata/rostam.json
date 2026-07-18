@@ -1,0 +1,83 @@
+{
+  "name": "Rostam #0001",
+
+  "description": 
+  "Rostam, the Eternal Guardian of Persia, reborn in the PersiaNexus universe to fight darkness and protect the balance between ancient wisdom and future technology.",
+
+
+  "image":
+  "assets/nft/rostam.jpg",
+
+
+  "animation_url":
+  "assets/trailers/rostam.mp4",
+
+
+  "external_url":
+  "assets/pages/rostam.html",
+
+
+  "attributes": [
+
+    {
+      "trait_type": "Collection",
+      "value": "PersiaNexus Eternal Legends"
+    },
+
+
+    {
+      "trait_type": "Character Type",
+      "value": "Hero"
+    },
+
+
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+
+
+    {
+      "trait_type": "Power Level",
+      "value": 100
+    },
+
+
+    {
+      "trait_type": "Origin",
+      "value": "Ancient Persia"
+    },
+
+
+    {
+      "trait_type": "Weapon",
+      "value": "Mythic Energy Sword"
+    },
+
+
+    {
+      "trait_type": "Status",
+      "value": "Active Guardian"
+    }
+
+
+  ],
+
+
+  "nft_info": {
+
+    "token_id":
+    "PNX-0001",
+
+    "edition":
+    "1/100",
+
+    "creator":
+    "PersiaNexus",
+
+    "network":
+    "Future Blockchain"
+
+  }
+
+}
