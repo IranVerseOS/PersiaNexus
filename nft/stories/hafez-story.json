@@ -1,0 +1,42 @@
+{
+"id":"legend-006",
+"name":"Hafez",
+"persianName":"حافظ",
+"title":"The Mystic Seer",
+"rarity":"Mythic",
+"powerLevel":94,
+
+"origin":{
+"era":"Persian Mystical Age",
+"rebirth":"Hafez returns with the power of cosmic poetry and hidden wisdom."
+},
+
+"story":{
+"intro":"A poet whose words connect human souls with universal energy returns to fight darkness.",
+"mission":"Guide heroes through spiritual challenges.",
+"enemy":"The Void of Despair."
+},
+
+"powers":[
+{
+"name":"Future Vision",
+"description":"Sees possible paths of destiny."
+},
+{
+"name":"Mystic Energy",
+"description":"Uses spiritual power against darkness."
+},
+{
+"name":"Soul Connection",
+"description":"Unites heroes through hope."
+}
+],
+
+"assets":{
+"image":"assets/nft/hafez.jpg",
+"trailer":"assets/trailers/hafez.mp4",
+"music":"assets/audio/hafez-theme.mp3"
+},
+
+"status":"Active"
+}
