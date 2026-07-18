@@ -1,0 +1,42 @@
+{
+"id":"legend-010",
+"name":"Darius The Great",
+"persianName":"داریوش بزرگ",
+"title":"The Empire Guardian",
+"rarity":"Legendary",
+"powerLevel":98,
+
+"origin":{
+"era":"Achaemenid Persia",
+"rebirth":"Darius returns as a protector of order and civilization."
+},
+
+"story":{
+"intro":"The guardian of the greatest empire rises again to defend the future.",
+"mission":"Protect knowledge, culture and justice.",
+"enemy":"The Destroyers of Civilization."
+},
+
+"powers":[
+{
+"name":"Empire Shield",
+"description":"Creates a massive defensive energy."
+},
+{
+"name":"Strategic Mind",
+"description":"Predicts enemy movements."
+},
+{
+"name":"Ancient Command",
+"description":"Summons legendary warriors."
+}
+],
+
+"assets":{
+"image":"assets/nft/darius.jpg",
+"trailer":"assets/trailers/darius.mp4",
+"music":"assets/audio/darius-theme.mp3"
+},
+
+"status":"Active"
+}
