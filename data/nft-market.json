@@ -1,0 +1,66 @@
+{
+  "marketplace": {
+
+    "currency": "PNX",
+
+    "statusTypes": [
+
+      "Available",
+      "Owned",
+      "Listed",
+      "Auction",
+      "Locked"
+
+    ],
+
+
+    "items": [
+
+      {
+
+        "tokenId": "PNX-H-0001",
+
+        "character": "Rostam",
+
+        "status": "Available",
+
+        "price": {
+
+          "amount": 250,
+
+          "currency": "PNX"
+
+        },
+
+
+        "owner":
+
+        "PersiaNexus Treasury",
+
+
+        "offers": [],
+
+
+        "history": [
+
+          {
+
+            "event":
+
+            "Created",
+
+            "date":
+
+            "2026"
+
+          }
+
+        ]
+
+      }
+
+    ]
+
+  }
+
+}
