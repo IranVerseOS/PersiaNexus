@@ -1,0 +1,48 @@
+{
+  "collection": "PersiaNexus Eternal Legends",
+  "version": "1.0.0",
+  "characters": [
+    {
+      "id": "legend-001",
+      "name": "رستم",
+      "title": "نگهبان جاودانه ایران",
+      "status": "Coming Soon",
+      "rarity": "Mythic",
+      "element": "Earth",
+      "powerLevel": 100,
+      "image": "assets/nft/rostam.jpg",
+      "trailer": "assets/trailers/rostam.mp4",
+      "music": "assets/audio/rostam-theme.mp3",
+      "story": "stories/rostam-story.json",
+      "enabled": true
+    },
+    {
+      "id": "legend-002",
+      "name": "آرش کمانگیر",
+      "title": "نگهبان مرزهای نور",
+      "status": "Coming Soon",
+      "rarity": "Legendary",
+      "element": "Light",
+      "powerLevel": 98,
+      "image": "assets/nft/arash-kamangir.jpg",
+      "trailer": "assets/trailers/arash-kamangir.mp4",
+      "music": "assets/audio/arash-theme.mp3",
+      "story": "stories/arash-story.json",
+      "enabled": true
+    },
+    {
+      "id": "legend-003",
+      "name": "ابن سینا",
+      "title": "حکیم ابدی",
+      "status": "Coming Soon",
+      "rarity": "Divine",
+      "element": "Wisdom",
+      "powerLevel": 99,
+      "image": "assets/nft/avicenna.jpg",
+      "trailer": "assets/trailers/avicenna.mp4",
+      "music": "assets/audio/avicenna-theme.mp3",
+      "story": "stories/avicenna-story.json",
+      "enabled": true
+    }
+  ]
+}
