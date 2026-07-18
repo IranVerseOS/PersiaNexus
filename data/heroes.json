@@ -134,3 +134,39 @@
 
   }
 }
+{
+  "heroes": [
+    {
+      "id": "IV-H-0001",
+      "name": "Arvand",
+      "title": "Guardian of Ancient Energy",
+
+      "world": "Ancient Persia",
+
+      "level": "Legendary",
+
+      "category": [
+        "Energy",
+        "Ancient Knowledge",
+        "Spirit"
+      ],
+
+      "powers": [
+        "Persian Energy Control",
+        "Ancient Wisdom",
+        "Spirit Connection"
+      ],
+
+      "story": {
+        "origin": "Born from the forgotten energy of ancient Persia.",
+        "mission": "Protect the balance between past and future."
+      },
+
+      "nft": {
+        "rarity": "Legendary",
+        "collection": "PersiaNexus Heroes",
+        "image": "assets/images/heroes/arvand.jpg"
+      }
+    }
+  ]
+}
