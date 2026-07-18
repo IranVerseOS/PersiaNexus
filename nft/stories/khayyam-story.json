@@ -1,0 +1,42 @@
+{
+"id":"legend-013",
+"name":"Omar Khayyam",
+"persianName":"خیام",
+"title":"The Cosmic Mathematician",
+"rarity":"Mythic",
+"powerLevel":95,
+
+"origin":{
+"era":"Golden Age of Persia",
+"rebirth":"Khayyam returns with the power of mathematics, stars and cosmic knowledge."
+},
+
+"story":{
+"intro":"The master of numbers and stars awakens when the universe itself is threatened.",
+"mission":"Decode the secrets of reality and protect cosmic balance.",
+"enemy":"The Chaos Algorithm."
+},
+
+"powers":[
+{
+"name":"Cosmic Mathematics",
+"description":"Controls patterns hidden in the universe."
+},
+{
+"name":"Star Vision",
+"description":"Reads information from the cosmos."
+},
+{
+"name":"Reality Equation",
+"description":"Changes possibilities through knowledge."
+}
+],
+
+"assets":{
+"image":"assets/nft/khayyam.jpg",
+"trailer":"assets/trailers/khayyam.mp4",
+"music":"assets/audio/khayyam-theme.mp3"
+},
+
+"status":"Active"
+}
