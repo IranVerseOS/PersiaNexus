@@ -1,0 +1,116 @@
+{
+  "id": "legend-001",
+
+  "name": "Rostam",
+
+  "persianName": "رستم",
+
+  "title": "The Eternal Guardian of Persia",
+
+  "rarity": "Mythic",
+
+  "powerLevel": 100,
+
+
+  "origin": {
+
+    "era": "Ancient Persia",
+
+    "rebirth":
+    "Rostam returns in PersiaNexus after thousands of years to protect the balance between light and darkness."
+
+  },
+
+
+  "story": {
+
+    "intro":
+    "When darkness awakened across the worlds, an ancient energy from Persia called the Guardian Flame searched for a warrior worthy of carrying its power. From the legends of old, Rostam was reborn.",
+
+
+    "mission":
+    "Protect the human world and unite ancient wisdom with future technology.",
+
+
+    "enemy":
+    "The Shadow Lords who seek to erase the memory of ancient civilizations."
+
+  },
+
+
+  "powers": [
+
+    {
+      "name": "Guardian Strength",
+      "description":
+      "Supernatural strength inherited from ancient Persian energy."
+    },
+
+    {
+      "name": "Zahak Slayer Spirit",
+      "description":
+      "The ability to fight darkness and destroy corrupted powers."
+    },
+
+    {
+      "name": "Divine Armor",
+      "description":
+      "Creates an invisible energy armor around his body."
+    },
+
+    {
+      "name": "Ancient Wisdom",
+      "description":
+      "Uses forgotten knowledge of Persian heroes."
+    }
+
+  ],
+
+
+  "weapons": [
+
+    {
+      "name": "Zulfiqar of Persia",
+      "type": "Energy Sword"
+    },
+
+    {
+      "name": "Mythic Bow",
+      "type": "Ancient Weapon"
+    }
+
+  ],
+
+
+  "cinematic": {
+
+    "trailerDuration":
+    "60 seconds",
+
+    "theme":
+    "Epic Persian orchestral + futuristic energy",
+
+    "scene":
+    "Rostam appears in a destroyed future city, surrounded by darkness. Ancient Persian symbols activate and his legendary armor awakens."
+
+  },
+
+
+  "assets": {
+
+    "image":
+    "assets/nft/rostam.jpg",
+
+    "trailer":
+    "assets/trailers/rostam.mp4",
+
+    "music":
+    "assets/audio/rostam-theme.mp3"
+
+  },
+
+
+  "status":
+  "Active"
+
+}
