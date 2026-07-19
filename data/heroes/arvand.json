@@ -1,0 +1,13 @@
+{
+  "id": "IV-H-0001",
+  "name": "Arvand",
+  "title": "Guardian of Ancient Persia",
+  "element": "Light",
+  "class": "Legendary",
+  "power": 9800,
+  "rarity": "Legendary",
+  "world": "Ancient Persia",
+  "nft": "NFT-0001",
+  "image": "assets/heroes/arvand.png",
+  "description": "Protector of Persian civilization and one of the first legendary guardians."
+}
