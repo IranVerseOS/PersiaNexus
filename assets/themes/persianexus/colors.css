@@ -1,0 +1,59 @@
+/* =====================================================
+   PersiaNexus Theme v1.0
+   File: colors.css
+   Project: PersiaNexus
+   ===================================================== */
+
+:root{
+
+  /* ===== Background ===== */
+
+  --bg:#090909;
+  --bg-secondary:#111111;
+  --bg-card:#181818;
+  --bg-glass:rgba(255,255,255,.08);
+
+  /* ===== Primary Colors ===== */
+
+  --gold:#D4AF37;
+  --gold-light:#F6D365;
+  --gold-dark:#A67C00;
+
+  --blue:#4DA3FF;
+  --blue-dark:#2A6FD4;
+
+  --purple:#8E44FF;
+  --purple-dark:#5E2EC9;
+
+  /* ===== Text ===== */
+
+  --white:#FFFFFF;
+  --text:#ECECEC;
+  --text-light:#BFBFBF;
+  --text-dark:#7A7A7A;
+
+  /* ===== Status ===== */
+
+  --success:#1BC47D;
+  --warning:#F5B942;
+  --danger:#FF4E50;
+
+  /* ===== Border ===== */
+
+  --border:#2B2B2B;
+
+  /* ===== Shadows ===== */
+
+  --shadow:0 10px 30px rgba(0,0,0,.45);
+  --gold-shadow:0 0 20px rgba(212,175,55,.35);
+  --blue-shadow:0 0 20px rgba(77,163,255,.35);
+  --purple-shadow:0 0 20px rgba(142,68,255,.35);
+
+  /* ===== Gradients ===== */
+
+  --gradient-gold:linear-gradient(135deg,#F6D365,#D4AF37);
+  --gradient-blue:linear-gradient(135deg,#4DA3FF,#1D6EFF);
+  --gradient-purple:linear-gradient(135deg,#8E44FF,#5E2EC9);
+  --gradient-dark:linear-gradient(180deg,#090909,#151515);
+
+}
