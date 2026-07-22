@@ -1,0 +1,345 @@
+/* =====================================================
+   PersiaNexus Theme v1.0
+   File : components.css
+===================================================== */
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:16px 34px;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    font-weight:700;
+
+    font-size:16px;
+
+    transition:.35s;
+
+    border:none;
+
+}
+
+.btn-primary{
+
+    background:var(--gradient-gold);
+
+    color:#111;
+
+    box-shadow:var(--gold-shadow);
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 15px 40px rgba(212,175,55,.45);
+
+}
+
+.btn-secondary{
+
+    background:transparent;
+
+    border:2px solid var(--gold);
+
+    color:var(--gold);
+
+}
+
+.btn-secondary:hover{
+
+    background:var(--gold);
+
+    color:#000;
+
+}
+
+/* ===========================
+   GLASS CARD
+=========================== */
+
+.card{
+
+    background:var(--bg-glass);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    padding:30px;
+
+    transition:.4s;
+
+    box-shadow:var(--shadow);
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--gold);
+
+    box-shadow:
+
+    0 15px 45px rgba(212,175,55,.25);
+
+}
+
+/* ===========================
+   HERO CARD
+=========================== */
+
+.hero-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:30px;
+
+}
+
+.hero-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    linear-gradient(
+
+    transparent,
+
+    rgba(212,175,55,.18)
+
+    );
+
+    opacity:0;
+
+    transition:.4s;
+
+}
+
+.hero-card:hover::before{
+
+    opacity:1;
+
+}
+
+/* ===========================
+   AI CARD
+=========================== */
+
+.ai-card{
+
+    border:1px solid rgba(77,163,255,.25);
+
+}
+
+.ai-card:hover{
+
+    box-shadow:
+
+    var(--blue-shadow);
+
+}
+
+/* ===========================
+   WORLD CARD
+=========================== */
+
+.world-card{
+
+    border:1px solid rgba(142,68,255,.20);
+
+}
+
+.world-card:hover{
+
+    box-shadow:
+
+    var(--purple-shadow);
+
+}
+
+/* ===========================
+   ICON BOX
+=========================== */
+
+.icon-box{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:var(--gradient-gold);
+
+    color:#111;
+
+    font-size:30px;
+
+}
+
+/* ===========================
+   BADGE
+=========================== */
+
+.badge{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    background:rgba(212,175,55,.12);
+
+    border:1px solid var(--gold);
+
+    color:var(--gold);
+
+    font-size:13px;
+
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title h2{
+
+    color:var(--gold);
+
+    margin-bottom:15px;
+
+}
+
+.section-title p{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+/* ===========================
+   INPUT
+=========================== */
+
+input,
+textarea{
+
+    width:100%;
+
+    background:#151515;
+
+    border:1px solid #2b2b2b;
+
+    color:#fff;
+
+    padding:16px;
+
+    border-radius:14px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+input:focus,
+textarea:focus{
+
+    border-color:var(--gold);
+
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+.image-cover{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+/* ===========================
+   GLOW
+=========================== */
+
+.glow{
+
+    box-shadow:
+
+    0 0 20px rgba(212,175,55,.25);
+
+}
+
+/* ===========================
+   DIVIDER
+=========================== */
+
+.divider{
+
+    width:100%;
+
+    height:1px;
+
+    background:
+
+    linear-gradient(
+
+    to right,
+
+    transparent,
+
+    var(--gold),
+
+    transparent
+
+    );
+
+    margin:60px 0;
+
+}
