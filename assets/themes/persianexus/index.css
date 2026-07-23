@@ -1,0 +1,390 @@
+/* ===========================================================
+   PersiaNexus Theme
+   File: index.css
+   Version: 1.0
+   Section: Header + Hero
+===========================================================*/
+
+/*==============================
+HEADER
+==============================*/
+
+header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:9999;
+
+    backdrop-filter:blur(18px);
+
+    background:rgba(8,8,8,.45);
+
+    border-bottom:1px solid rgba(255,255,255,.05);
+
+    transition:.35s;
+
+}
+
+header.scrolled{
+
+    background:rgba(5,5,5,.92);
+
+    box-shadow:0 10px 35px rgba(0,0,0,.45);
+
+}
+
+/*==============================
+NAVBAR
+==============================*/
+
+.navbar{
+
+    height:82px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.logo img{
+
+    width:52px;
+
+    height:52px;
+
+    object-fit:contain;
+
+}
+
+.logo h2{
+
+    color:var(--gold);
+
+    font-size:28px;
+
+    font-weight:800;
+
+    letter-spacing:1px;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:35px;
+
+    align-items:center;
+
+}
+
+.nav-links a{
+
+    color:var(--white);
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    position:relative;
+
+}
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--gold);
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--gold);
+
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
+
+}
+
+/*==============================
+HERO
+==============================*/
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:
+
+    linear-gradient(
+
+    rgba(5,5,5,.70),
+
+    rgba(5,5,5,.88)
+
+    ),
+
+    url("../../images/hero-bg.webp");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+/*==============================
+OVERLAY
+==============================*/
+
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    radial-gradient(
+
+    circle at center,
+
+    rgba(212,175,55,.12),
+
+    transparent 65%
+
+    );
+
+}
+
+/*==============================
+CONTENT
+==============================*/
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:760px;
+
+}
+
+.hero-badge{
+
+    display:inline-block;
+
+    padding:10px 20px;
+
+    border-radius:50px;
+
+    background:rgba(212,175,55,.10);
+
+    border:1px solid var(--gold);
+
+    color:var(--gold);
+
+    margin-bottom:25px;
+
+    font-weight:700;
+
+}
+
+.hero h1{
+
+    font-size:72px;
+
+    color:#fff;
+
+    line-height:1.1;
+
+    margin-bottom:25px;
+
+}
+
+.hero h1 span{
+
+    color:var(--gold);
+
+}
+
+.hero p{
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    max-width:650px;
+
+    margin-bottom:40px;
+
+}
+
+/*==============================
+BUTTON GROUP
+==============================*/
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+/*==============================
+SCROLL ICON
+==============================*/
+
+.scroll-down{
+
+    position:absolute;
+
+    bottom:40px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    animation:float 3s infinite;
+
+    color:var(--gold);
+
+    font-size:32px;
+
+}
+
+/*==============================
+LIGHT
+==============================*/
+
+.hero-light{
+
+    position:absolute;
+
+    width:700px;
+
+    height:700px;
+
+    right:-180px;
+
+    top:-180px;
+
+    border-radius:50%;
+
+    background:
+
+    radial-gradient(
+
+    rgba(212,175,55,.22),
+
+    transparent 70%
+
+    );
+
+    filter:blur(40px);
+
+}
+
+/*==============================
+RESPONSIVE
+==============================*/
+
+@media(max-width:992px){
+
+.hero h1{
+
+font-size:52px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.nav-links{
+
+display:none;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero-content{
+
+margin:auto;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+}
